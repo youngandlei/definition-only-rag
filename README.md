@@ -12,24 +12,52 @@ with model size. The same term-knowledge signal carries no per-question informat
 does not locate the questions where a definition changes the answer, and no internal
 routing signal approaches the per-question oracle.
 
-## Release status
+## Contents
 
-The artifacts are prepared and will be released here. They comprise:
+```
+pipeline/          retrieval, term-knowledge measurement, annotation build
+annotation/        per-question term annotation, rubric, agreement report
+definition_probe/  194 reviewed items whose answer the definition carries
+invented_terms/    50 synthetic terms, for separating reading from recall
+analysis/          the correlation grid and the reported numbers
+routing/           the eight-signal sweep against the oracle
+talk/              the slides as presented
+poster/            the poster as presented
+```
 
-- **Per-question term annotation.** For each of 1,124 MMLU Finance questions, the
-  Investopedia terms whose definitions are load-bearing for the correct answer, with the
-  annotation rubric, the second-annotator pass, and the agreement report.
-- **Controlled probe set.** 194 hand-reviewed items whose answer is a value carried by the
-  source term's definition, with source terms and construction notes.
-- **Invented terms.** 50 synthetic financial terms with hand-written definitions, used to
-  separate reading an injected definition from recalling a memorised one.
-- **Evaluation harness and analysis code.** The retrieval and scoring pipeline together
-  with the scripts behind every reported number, including the per-model term-knowledge
-  scores and the paired per-question outcomes that reproduce the correlation analysis.
+| | |
+|---|---|
+| `annotation/mmlu_finance_terms.csv` | 1,124 questions; 1,006 carry at least one validated term |
+| `definition_probe/definition_probe.json` | 194 items |
+| `invented_terms/invented_terms.json` | 50 items |
+| `analysis/correlation_grid.json` | 40 cells, all inside an absolute r of 0.06 |
 
-The Investopedia glossary of Jhirad et al. (2023) is not publicly hosted and will not be
-redistributed here. Instructions for obtaining it from its authors, and for resolving the
-term identifiers used in the annotation, will accompany the release.
+Each directory has a README covering format, construction, and the numbers it
+reproduces.
+
+## Using the annotation
+
+`gold_inv_term_id` indexes the curated Investopedia term bank of Jhirad et al.
+(2023), which its authors distribute on request. With a copy in hand:
+
+```bash
+python annotation/resolve_terms.py --glossary InvestopediaDataset.json \
+                                   --in  annotation/mmlu_finance_terms.csv \
+                                   --out mmlu_finance_terms_named.csv
+```
+
+`annotation/summarise.py` prints the coverage breakdown from the CSV alone.
+
+## Running the code
+
+The scripts read the glossary, the benchmarks, and the model traces from a tree
+you point `DEFRAG_ROOT` at.
+
+```bash
+pip install -r requirements.txt
+export DEFRAG_ROOT=/path/to/your/tree
+python analysis/bootstrap_table1_cis.py
+```
 
 ## Citation
 
@@ -44,6 +72,5 @@ term identifiers used in the annotation, will accompany the release.
 
 ## License
 
-Code will be released under the MIT License. The annotation, the probe set, and the
-invented-terms set will be released under CC BY 4.0. Neither covers the Investopedia
-glossary, which is not redistributed here.
+Code is released under the MIT License. The annotation, the probe set and the
+invented-terms set are released under CC BY 4.0.

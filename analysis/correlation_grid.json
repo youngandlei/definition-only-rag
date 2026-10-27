@@ -1,0 +1,62 @@
+{
+  "models": {
+    "Qwen-2.5-7B": {
+      "n": 995,
+      "meteor_rcorr_mean": -0.036263765666524964,
+      "meteor_rcorr_min": -0.02379220748236157,
+      "meteor_rdelta_mean": 0.005285194045195909,
+      "meteor_rdelta_min": 0.02029070275443727,
+      "judge_rcorr_mean": 0.040718538173760956,
+      "judge_rcorr_min": 0.025414678917530926,
+      "judge_rdelta_mean": -0.029173343681662276,
+      "judge_rdelta_min": 0.0005538102579854232
+    },
+    "Qwen-2.5-14B": {
+      "n": 995,
+      "meteor_rcorr_mean": -0.015070161550049855,
+      "meteor_rcorr_min": 0.0012529688439736307,
+      "meteor_rdelta_mean": 0.0019626988777566414,
+      "meteor_rdelta_min": -0.018683075842679215,
+      "judge_rcorr_mean": -0.017066153700993462,
+      "judge_rcorr_min": 0.011231696283713587,
+      "judge_rdelta_mean": 0.0024155693377825352,
+      "judge_rdelta_min": -0.023512576627401634
+    },
+    "Llama-3.1-8B": {
+      "n": 995,
+      "meteor_rcorr_mean": -0.036110022265962466,
+      "meteor_rcorr_min": -0.03202755557706612,
+      "meteor_rdelta_mean": 0.026368962180078656,
+      "meteor_rdelta_min": 0.019204880290161652,
+      "judge_rcorr_mean": -0.0007882142900654147,
+      "judge_rcorr_min": 0.01261655705214472,
+      "judge_rdelta_mean": 0.05133215691103008,
+      "judge_rdelta_min": 0.031144342905097308
+    },
+    "Mistral-S-24B": {
+      "n": 995,
+      "meteor_rcorr_mean": -0.055508285371942495,
+      "meteor_rcorr_min": -0.047750003113694026,
+      "meteor_rdelta_mean": -0.016005898858584087,
+      "meteor_rdelta_min": -0.026154766993579128,
+      "judge_rcorr_mean": -0.0037127196242626647,
+      "judge_rcorr_min": -0.001371301685112925,
+      "judge_rdelta_mean": 0.004808384254030435,
+      "judge_rdelta_min": -0.008923287662285537
+    },
+    "GPT-5.2": {
+      "n": 995,
+      "meteor_rcorr_mean": -0.05400568432608016,
+      "meteor_rcorr_min": -0.025732969660870648,
+      "meteor_rdelta_mean": 0.03180052300063785,
+      "meteor_rdelta_min": 0.04309544754378802,
+      "judge_rcorr_mean": -0.004573867613865856,
+      "judge_rcorr_min": -0.011773205041639508,
+      "judge_rdelta_mean": 0.015459752749425565,
+      "judge_rdelta_min": 0.0
+    }
+  },
+  "n_term_bearing": 995,
+  "fisher_half_width": 0.0621498561580823,
+  "max_abs_r": 0.055508285371942495
+}

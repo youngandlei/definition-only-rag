@@ -1,0 +1,652 @@
+[
+ {
+  "id": 0,
+  "term": "Kessler Float Ratio",
+  "definition": "The Kessler Float Ratio measures short-term settlement exposure by dividing unsettled trade value by available same-day liquidity. A desk is conventionally flagged as float-stressed when the ratio exceeds 1.8.",
+  "question": "Under the Kessler Float Ratio convention, a trading desk is flagged as float-stressed when the ratio exceeds what value?",
+  "choices": [
+   "2.5",
+   "3.0",
+   "1.8",
+   "1.2"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 1,
+  "term": "Marlowe Window",
+  "definition": "The Marlowe Window is the settlement grace period applied to cross-listed bond redemptions, fixed at 11 business days from the redemption notice.",
+  "question": "How long is the Marlowe Window for cross-listed bond redemptions?",
+  "choices": [
+   "5 business days",
+   "15 business days",
+   "11 business days",
+   "7 business days"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 2,
+  "term": "Averill Cap",
+  "definition": "The Averill Cap limits the share of a pooled retirement vehicle that may sit in a single unrated issuer to 6.5% of net assets.",
+  "question": "What is the maximum single unrated-issuer share allowed under the Averill Cap?",
+  "choices": [
+   "2.5%",
+   "4.0%",
+   "6.5%",
+   "10.0%"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 3,
+  "term": "Draycott Spread",
+  "definition": "The Draycott Spread is the difference between a fund's declared redemption price and its shadow-audited net asset value, expressed in basis points; disclosures are mandatory once it widens past 35 basis points.",
+  "question": "At what level does disclosure of the Draycott Spread become mandatory?",
+  "choices": [
+   "50 basis points",
+   "35 basis points",
+   "10 basis points",
+   "20 basis points"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 4,
+  "term": "Halvorsen Test",
+  "definition": "The Halvorsen Test verifies whether a market maker's quoted depth is genuine by comparing displayed size against executed size over a rolling 20-session window.",
+  "question": "Over what window is the Halvorsen Test computed?",
+  "choices": [
+   "20 sessions",
+   "60 sessions",
+   "10 sessions",
+   "5 sessions"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 5,
+  "term": "Pemberton Yield Anchor",
+  "definition": "The Pemberton Yield Anchor is a reference rate used in structured deposit pricing, reset every 45 days against a basket of covered bonds.",
+  "question": "How often is the Pemberton Yield Anchor reset?",
+  "choices": [
+   "Every 60 days",
+   "Every 45 days",
+   "Every 30 days",
+   "Every 90 days"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 6,
+  "term": "Quenneville Buffer",
+  "definition": "The Quenneville Buffer is the extra collateral, set at 12% of notional, that bilateral swap counterparties post when one party loses its investment-grade rating.",
+  "question": "What percentage of notional is the Quenneville Buffer?",
+  "choices": [
+   "20%",
+   "8%",
+   "5%",
+   "12%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 7,
+  "term": "Ashworth Rotation",
+  "definition": "Ashworth Rotation is a rebalancing scheme in which a portfolio's sector weights are reset to target on the third Thursday of every second month.",
+  "question": "When are weights reset under Ashworth Rotation?",
+  "choices": [
+   "Every Friday",
+   "Last trading day of each quarter",
+   "First Monday monthly",
+   "Third Thursday of every second month"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 8,
+  "term": "Bellamy Floor",
+  "definition": "The Bellamy Floor is the minimum coupon, 2.25%, that resettable hybrid notes may pay after a rate-reset event under the standard indenture template.",
+  "question": "What is the minimum coupon under the Bellamy Floor?",
+  "choices": [
+   "1.00%",
+   "0.50%",
+   "2.25%",
+   "3.75%"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 9,
+  "term": "Corwin Ledger Basis",
+  "definition": "Corwin Ledger Basis is an accounting convention that books unrealised custody-chain gains only after they have persisted for 4 consecutive quarters.",
+  "question": "How many consecutive quarters must a gain persist before recognition under Corwin Ledger Basis?",
+  "choices": [
+   "8",
+   "4",
+   "2",
+   "6"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 10,
+  "term": "Danforth Trigger",
+  "definition": "The Danforth Trigger suspends automated liquidation programs whenever realised intraday volatility exceeds 3.2 times its trailing monthly median.",
+  "question": "At what multiple of the trailing monthly median does the Danforth Trigger fire?",
+  "choices": [
+   "5.0×",
+   "1.5×",
+   "2.0×",
+   "3.2×"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 11,
+  "term": "Ellsworth Concession",
+  "definition": "The Ellsworth Concession is the underwriting fee discount, capped at 40 basis points, granted to anchor investors in club-style debt placements.",
+  "question": "What is the cap on the Ellsworth Concession?",
+  "choices": [
+   "75 basis points",
+   "25 basis points",
+   "15 basis points",
+   "40 basis points"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 12,
+  "term": "Farrier Notch",
+  "definition": "A Farrier Notch is the one-step rating adjustment applied to securitisations whose servicer concentration exceeds 55% of the collateral pool.",
+  "question": "Above what servicer concentration is a Farrier Notch applied?",
+  "choices": [
+   "25%",
+   "70%",
+   "40%",
+   "55%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 13,
+  "term": "Gainsley Ratio",
+  "definition": "The Gainsley Ratio compares a clearinghouse's prefunded default resources to its single largest member exposure; the regulatory soft minimum is 1.4.",
+  "question": "What is the regulatory soft minimum for the Gainsley Ratio?",
+  "choices": [
+   "2.8",
+   "2.0",
+   "1.4",
+   "1.0"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 14,
+  "term": "Harkness Interval",
+  "definition": "The Harkness Interval is the mandatory quiet period of 9 calendar days between a tender-offer amendment and the earliest permissible settlement.",
+  "question": "How long is the Harkness Interval?",
+  "choices": [
+   "21 calendar days",
+   "14 calendar days",
+   "9 calendar days",
+   "3 calendar days"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 15,
+  "term": "Ivering Charge",
+  "definition": "The Ivering Charge is a levy of 0.15% on gross notional applied to trades that fail affirmation twice in the same settlement cycle.",
+  "question": "What is the rate of the Ivering Charge?",
+  "choices": [
+   "0.05%",
+   "0.15%",
+   "0.50%",
+   "1.00%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 16,
+  "term": "Jarnac Band",
+  "definition": "The Jarnac Band is the tolerance range, plus or minus 75 basis points, within which a target-date fund may drift from its glidepath before forced rebalancing.",
+  "question": "How wide is the Jarnac Band on each side of the glidepath?",
+  "choices": [
+   "25 basis points",
+   "50 basis points",
+   "75 basis points",
+   "150 basis points"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 17,
+  "term": "Kirkbride Sweep",
+  "definition": "A Kirkbride Sweep automatically moves customer credit balances above 250,000 currency units into segregated overnight repo at the close of each session.",
+  "question": "Above what balance does a Kirkbride Sweep activate?",
+  "choices": [
+   "100,000 units",
+   "1,000,000 units",
+   "250,000 units",
+   "50,000 units"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 18,
+  "term": "Lockmere Haircut",
+  "definition": "The Lockmere Haircut is the fixed 18% valuation discount applied to non-listed infrastructure collateral in bilateral financing.",
+  "question": "What discount does the Lockmere Haircut apply?",
+  "choices": [
+   "25%",
+   "18%",
+   "8%",
+   "12%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 19,
+  "term": "Mowbray Score",
+  "definition": "The Mowbray Score grades trade-reporting timeliness on a 0-to-7 scale, with venues below 4 subject to enhanced supervision.",
+  "question": "Below what Mowbray Score does enhanced supervision apply?",
+  "choices": [
+   "4",
+   "2",
+   "3",
+   "6"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 20,
+  "term": "Nettleford Gate",
+  "definition": "The Nettleford Gate defers fund redemptions once weekly outflow requests exceed 22% of net assets.",
+  "question": "At what weekly outflow share does the Nettleford Gate activate?",
+  "choices": [
+   "15%",
+   "22%",
+   "10%",
+   "33%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 21,
+  "term": "Ormsby Convention",
+  "definition": "Under the Ormsby Convention, syndicated loan interest accrues on an actual/364 day-count basis rather than actual/360.",
+  "question": "What day-count basis does the Ormsby Convention use?",
+  "choices": [
+   "Actual/360",
+   "Actual/364",
+   "Actual/365",
+   "30/360"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 22,
+  "term": "Pellworth Cushion",
+  "definition": "The Pellworth Cushion requires captive insurers to hold surplus equal to 130% of their single largest ceded exposure.",
+  "question": "What surplus level does the Pellworth Cushion require?",
+  "choices": [
+   "100%",
+   "115%",
+   "200%",
+   "130%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 23,
+  "term": "Quarles Drift Limit",
+  "definition": "The Quarles Drift Limit voids algorithmic quotes that move more than 6% from the reference midpoint within a single millisecond batch.",
+  "question": "At what movement from the midpoint does the Quarles Drift Limit void a quote?",
+  "choices": [
+   "1%",
+   "3%",
+   "10%",
+   "6%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 24,
+  "term": "Renshaw Overlay",
+  "definition": "A Renshaw Overlay is a currency-hedging program that adjusts hedge ratios in fixed 15-percentage-point steps rather than continuously.",
+  "question": "In what increments does a Renshaw Overlay adjust hedge ratios?",
+  "choices": [
+   "15 percentage points",
+   "5 percentage points",
+   "10 percentage points",
+   "25 percentage points"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 25,
+  "term": "Silloth Margin Ladder",
+  "definition": "The Silloth Margin Ladder escalates initial margin by 30% at each of three predefined stress tiers.",
+  "question": "By how much does initial margin rise at each tier of the Silloth Margin Ladder?",
+  "choices": [
+   "50%",
+   "10%",
+   "20%",
+   "30%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 26,
+  "term": "Tarleton Ceiling",
+  "definition": "The Tarleton Ceiling caps the total expense ratio of feeder vehicles at 85 basis points above their master fund.",
+  "question": "How far above the master fund does the Tarleton Ceiling cap a feeder's expense ratio?",
+  "choices": [
+   "85 basis points",
+   "50 basis points",
+   "120 basis points",
+   "25 basis points"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 27,
+  "term": "Umberley Clause",
+  "definition": "An Umberley Clause lets bondholders demand early repayment if audited leverage stays above the covenant level for 3 consecutive reporting periods.",
+  "question": "After how many consecutive reporting periods above covenant leverage does an Umberley Clause apply?",
+  "choices": [
+   "3",
+   "1",
+   "2",
+   "5"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 28,
+  "term": "Varnholt Print",
+  "definition": "A Varnholt Print is a block trade disclosure delayed until 90 minutes after execution under large-in-scale waivers.",
+  "question": "How long is disclosure delayed for a Varnholt Print?",
+  "choices": [
+   "15 minutes",
+   "45 minutes",
+   "24 hours",
+   "90 minutes"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 29,
+  "term": "Wexcombe Reserve",
+  "definition": "The Wexcombe Reserve obliges payment institutions to safeguard 105% of outstanding e-money float in qualifying assets.",
+  "question": "What safeguarding level does the Wexcombe Reserve set?",
+  "choices": [
+   "100%",
+   "102%",
+   "105%",
+   "110%"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 30,
+  "term": "Yarrowfield Basis Swap",
+  "definition": "A Yarrowfield Basis Swap exchanges two floating legs that reset on the 4th and 19th of each month respectively.",
+  "question": "On which days do the legs of a Yarrowfield Basis Swap reset?",
+  "choices": [
+   "4th and 19th",
+   "1st and 15th",
+   "5th and 20th",
+   "10th and 25th"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 31,
+  "term": "Zellmer Threshold",
+  "definition": "The Zellmer Threshold exempts issuers from quarterly attestations when public float falls below 40 million currency units.",
+  "question": "Below what public float does the Zellmer Threshold exemption apply?",
+  "choices": [
+   "10 million units",
+   "75 million units",
+   "25 million units",
+   "40 million units"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 32,
+  "term": "Ambleside Corridor",
+  "definition": "The Ambleside Corridor keeps an overnight facility rate within 65 basis points of the policy midpoint.",
+  "question": "How wide is the Ambleside Corridor around the policy midpoint?",
+  "choices": [
+   "100 basis points",
+   "65 basis points",
+   "40 basis points",
+   "25 basis points"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 33,
+  "term": "Birtwistle Look-Back",
+  "definition": "The Birtwistle Look-Back values employee liquidity-event shares at the average of the prior 7 trading days.",
+  "question": "Over how many trading days is the Birtwistle Look-Back average taken?",
+  "choices": [
+   "7",
+   "5",
+   "3",
+   "10"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 34,
+  "term": "Caldecote Ratchet",
+  "definition": "A Caldecote Ratchet raises a facility's commitment fee by 10 basis points each time utilisation stays under 20% for a full quarter.",
+  "question": "By how much does the commitment fee rise at each step of a Caldecote Ratchet?",
+  "choices": [
+   "20 basis points",
+   "10 basis points",
+   "5 basis points",
+   "35 basis points"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 35,
+  "term": "Densmore Fraction",
+  "definition": "The Densmore Fraction is the share of dark-venue volume, set at one-ninth, beyond which an instrument must publish enhanced transparency reports.",
+  "question": "What is the Densmore Fraction?",
+  "choices": [
+   "One-fifth",
+   "One-twentieth",
+   "One-ninth",
+   "One-third"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 36,
+  "term": "Eastcote Window Tax",
+  "definition": "The Eastcote Window Tax is a 0.4% duty on transfers executed during the final auction call of the year.",
+  "question": "What is the rate of the Eastcote Window Tax?",
+  "choices": [
+   "0.1%",
+   "2.0%",
+   "1.0%",
+   "0.4%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 37,
+  "term": "Fenwick Ladder Date",
+  "definition": "The Fenwick Ladder Date is the annual reset of laddered deposit tranches, fixed on 14 March.",
+  "question": "On what date is the Fenwick Ladder Date fixed?",
+  "choices": [
+   "30 June",
+   "1 January",
+   "1 October",
+   "14 March"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 38,
+  "term": "Garrick Multiple",
+  "definition": "The Garrick Multiple caps performance fees at 3.5 times the management fee in the same accounting year.",
+  "question": "What is the cap set by the Garrick Multiple?",
+  "choices": [
+   "3.5×",
+   "2.0×",
+   "5.0×",
+   "1.5×"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 39,
+  "term": "Heathwaite Notice",
+  "definition": "A Heathwaite Notice must be filed 26 weeks before terminating a systemically designated clearing membership.",
+  "question": "How far in advance must a Heathwaite Notice be filed?",
+  "choices": [
+   "12 weeks",
+   "52 weeks",
+   "26 weeks",
+   "4 weeks"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 40,
+  "term": "Inglewhite Buffer Rate",
+  "definition": "The Inglewhite Buffer Rate adds a fixed 1.75% surcharge to intraday overdrafts collateralised with equities.",
+  "question": "What surcharge does the Inglewhite Buffer Rate add?",
+  "choices": [
+   "3.00%",
+   "1.75%",
+   "0.25%",
+   "0.75%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 41,
+  "term": "Jephson Recovery Floor",
+  "definition": "The Jephson Recovery Floor assumes a minimum 28% recovery on defaulted mezzanine tranches for provisioning purposes.",
+  "question": "What minimum recovery does the Jephson Recovery Floor assume?",
+  "choices": [
+   "10%",
+   "28%",
+   "55%",
+   "40%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 42,
+  "term": "Kentmere Split",
+  "definition": "A Kentmere Split divides custody fees 60/40 between safekeeping and transaction components.",
+  "question": "How does a Kentmere Split divide custody fees?",
+  "choices": [
+   "70/30",
+   "80/20",
+   "50/50",
+   "60/40"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 43,
+  "term": "Loxley Horizon",
+  "definition": "The Loxley Horizon is the 13-month observation period used to classify a counterparty as persistently late-settling.",
+  "question": "How long is the Loxley Horizon?",
+  "choices": [
+   "6 months",
+   "3 months",
+   "13 months",
+   "24 months"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 44,
+  "term": "Milthorpe Increment",
+  "definition": "Milthorpe Increments are the minimum 0.02 currency-unit steps in which negotiated guarantee fees may be quoted.",
+  "question": "What is the size of a Milthorpe Increment?",
+  "choices": [
+   "0.10 units",
+   "0.005 units",
+   "0.25 units",
+   "0.02 units"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 45,
+  "term": "Naseby Ratio Test",
+  "definition": "The Naseby Ratio Test approves dividend recapitalisations only when pro-forma interest cover stays above 2.6.",
+  "question": "What interest-cover level does the Naseby Ratio Test require?",
+  "choices": [
+   "4.0",
+   "2.0",
+   "1.5",
+   "2.6"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 46,
+  "term": "Otterburn Holdback",
+  "definition": "An Otterburn Holdback retains 8% of syndication proceeds in escrow until first-interest confirmation.",
+  "question": "What share of proceeds does an Otterburn Holdback retain?",
+  "choices": [
+   "8%",
+   "15%",
+   "2%",
+   "5%"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 47,
+  "term": "Purbeck Anchor Date",
+  "definition": "The Purbeck Anchor Date sets 30 September as the uniform valuation date for cross-border collateral schedules.",
+  "question": "Which date does the Purbeck Anchor Date specify?",
+  "choices": [
+   "30 September",
+   "31 March",
+   "30 June",
+   "31 December"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 48,
+  "term": "Ravensworth Decay",
+  "definition": "Ravensworth Decay schedules unused credit-line commitments to shrink by 5% per month after the first drawdown anniversary.",
+  "question": "At what monthly rate do commitments shrink under Ravensworth Decay?",
+  "choices": [
+   "10%",
+   "1%",
+   "25%",
+   "5%"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 49,
+  "term": "Selborne Gate Fee",
+  "definition": "The Selborne Gate Fee is a 1.25% charge on redemptions executed while a fund's liquidity gate is active.",
+  "question": "What is the rate of the Selborne Gate Fee?",
+  "choices": [
+   "2.50%",
+   "5.00%",
+   "1.25%",
+   "0.25%"
+  ],
+  "answer": 2
+ }
+]

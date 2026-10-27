@@ -1,0 +1,3300 @@
+[
+ {
+  "subject": "financial_terminology",
+  "question": "A hedge fund's average holding period for any position is approximately 1.6 months. What is its annualized portfolio turnover rate?",
+  "choices": [
+   "50%",
+   "150%",
+   "300%",
+   "750%"
+  ],
+  "answer": 3,
+  "answer_text": "750%",
+  "type": "mc",
+  "source_term": "Annual Turnover",
+  "source_term_id": "170",
+  "q_idx": 0,
+  "explanation": "Annual turnover = 12 months / average holding period. 12 / 1.6 ≈ 7.5 → 750%."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Of the four contracts below, which is properly classified as ASSURANCE (rather than insurance)?",
+  "choices": [
+   "Whole life policy paying $250,000 on death",
+   "5-year auto insurance with $250,000 liability cap",
+   "1-year property insurance on a $250,000 home",
+   "20-year term life policy covering $250,000"
+  ],
+  "answer": 0,
+  "answer_text": "Whole life policy paying $250,000 on death",
+  "type": "mc",
+  "source_term": "Assurance",
+  "source_term_id": "246",
+  "q_idx": 0,
+  "explanation": "Assurance covers events CERTAIN to happen (e.g. death under whole life). The other three cover hazards over defined terms = insurance."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In which year was the Delivered Ex Ship (DES) Incoterm officially discontinued and replaced by newer Incoterm rules?",
+  "choices": [
+   "2007",
+   "2002",
+   "2020",
+   "2011"
+  ],
+  "answer": 3,
+  "answer_text": "2011",
+  "type": "mc",
+  "source_term": "Delivered Ex Ship",
+  "source_term_id": "1003",
+  "q_idx": 0,
+  "explanation": "DES was discontinued in 2011 as part of the Incoterms 2010 update (replaced by DAT and DAP)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Over 30 years, an investor pays 1.0% in annual fees instead of 0.1%, on a $10,000 lump sum that returns 7% before fees. Compared to the 0.1% fund, approximately how much in foregone earnings (fees plus their lost compounding) does the investor accumulate? (Pick the closest order-of-magnitude.)",
+  "choices": [
+   "$45,000",
+   "$28,300",
+   "$60,200",
+   "$31,800"
+  ],
+  "answer": 2,
+  "answer_text": "$60,200",
+  "type": "mc",
+  "source_term": "Foregone Earnings",
+  "source_term_id": "1650",
+  "q_idx": 0,
+  "explanation": "Net of fees: 6% vs 6.9% annual. After 30y: 10k·1.06^30 ≈ $57,400 vs 10k·1.069^30 ≈ $73,700. Gap ≈ $16,300 of which ~$1,000 is direct fees and the rest is compounding loss. Foregone earnings ≈ $58–62K range."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A LEPO is structured as a European call with strike price 1¢ on a stock currently trading at $50. What is the approximate delta of this option?",
+  "choices": [
+   "≈ 1 (effectively the same as the underlying stock)",
+   "Cannot be defined — European options have no delta until expiry",
+   "≈ 0.1 (typical deep out-of-the-money call)",
+   "≈ 0.5 (typical at-the-money call)"
+  ],
+  "answer": 0,
+  "answer_text": "≈ 1 (effectively the same as the underlying stock)",
+  "type": "mc",
+  "source_term": "Low Exercise Price Option",
+  "source_term_id": "3146",
+  "q_idx": 0,
+  "explanation": "Strike 1¢ vs price $50 makes the call essentially 100% intrinsic value; its delta is ≈ 1.0, so it tracks the underlying nearly dollar-for-dollar (exactly the reason institutions use LEPOs as stock-substitute leverage instruments)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An insurance contract has expected present value of benefits = $15,000 and expected present value of future premiums = $4,000. What is the net premium for state premium-tax accounting?",
+  "choices": [
+   "$4,000",
+   "$15,000",
+   "$0",
+   "$11,000"
+  ],
+  "answer": 3,
+  "answer_text": "$11,000",
+  "type": "mc",
+  "source_term": "Net Premium",
+  "source_term_id": "3588",
+  "q_idx": 0,
+  "explanation": "Net premium = PV(benefits) − PV(future premiums) = 15,000 − 4,000 = $11,000."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An insurance company reports Total Assets = $120M, Total Liabilities = $80M, Conditional Reserves = $20M. What is its Overall Liquidity Ratio?",
+  "choices": [
+   "1.40",
+   "0.86",
+   "1.71",
+   "1.20"
+  ],
+  "answer": 3,
+  "answer_text": "1.20",
+  "type": "mc",
+  "source_term": "Overall Liquidity Ratio",
+  "source_term_id": "4007",
+  "q_idx": 0,
+  "explanation": "OLR = Total Assets / (Total Liabilities + Conditional Reserves) = 120 / (80+20) = 120/100 = 1.20."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "On a stock chart, the raw oscillator reads 15 and its 9-period moving average reads 18. What is the OsMA value and what does it imply?",
+  "choices": [
+   "+15 (bullish: oscillator level is above its moving average)",
+   "0 (neutral: depends only on price action, not on the indicators themselves)",
+   "+15 (bullish: oscillator level is high relative to zero)",
+   "−3.0 (bearish: oscillator is below its own moving average)"
+  ],
+  "answer": 3,
+  "answer_text": "−3.0 (bearish: oscillator is below its own moving average)",
+  "type": "mc",
+  "source_term": "Oscillator of a Moving Average",
+  "source_term_id": "3964",
+  "q_idx": 0,
+  "explanation": "OsMA = oscillator − MA(oscillator) = 15 − 18 = −3. Negative reading → bearish (oscillator below its own trend)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Jumbo Pool MBS are pass-through securities collateralized by mortgages from multiple issuers. They are issued under which specific program?",
+  "choices": [
+   "Ginnie Mae II",
+   "Fannie Mae",
+   "Ginnie Mae I",
+   "Freddie Mac"
+  ],
+  "answer": 0,
+  "answer_text": "Ginnie Mae II",
+  "type": "mc",
+  "source_term": "Jumbo Pool",
+  "source_term_id": "2762",
+  "q_idx": 0,
+  "explanation": "Jumbo Pools are specifically Ginnie Mae II pass-through MBS (multiple-issuer pooling is a defining feature of Ginnie Mae II, distinguishing it from Ginnie Mae I single-issuer pools)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which financial institution created the OPALS product and in what year?",
+  "choices": [
+   "Barclays Global Investors, 1993",
+   "J.P. Morgan, 1996",
+   "Goldman Sachs, 1989",
+   "Morgan Stanley, 1994"
+  ],
+  "answer": 3,
+  "answer_text": "Morgan Stanley, 1994",
+  "type": "mc",
+  "source_term": "Optimized Portfolio As Listed Securities",
+  "source_term_id": "3903",
+  "q_idx": 0,
+  "explanation": "Optimized Portfolio As Listed Securities was created by Morgan Stanley in 1994; it is regarded as a predecessor of the modern ETF business model."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which accounting firm designed the OPIS tax avoidance product, and in which decade was it offered?",
+  "choices": [
+   "PricewaterhouseCoopers (1995)",
+   "Arthur Andersen (1980s)",
+   "KPMG (1990s)",
+   "Deloitte (early 2000s)"
+  ],
+  "answer": 2,
+  "answer_text": "KPMG (1990s)",
+  "type": "mc",
+  "source_term": "Offshore Portfolio Investment Strategy",
+  "source_term_id": "3796",
+  "q_idx": 0,
+  "explanation": "OPIS was a 1990s tax avoidance product offered by KPMG; it was among several abusive tax shelters that led to regulatory action against the firm in the early 2000s."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Hardship Exemptions in U.S. healthcare law historically allowed certain individuals to be excused from which specific federal financial obligation?",
+  "choices": [
+   "Medicare Part B enrollment penalties",
+   "Federal estate tax returns",
+   "The Affordable Care Act (ACA) individual mandate",
+   "State income tax filings"
+  ],
+  "answer": 2,
+  "answer_text": "The Affordable Care Act (ACA) individual mandate",
+  "type": "mc",
+  "source_term": "Hardship Exemption",
+  "source_term_id": "2117",
+  "q_idx": 0,
+  "explanation": "Hardship Exemptions excused individuals from the ACA individual mandate / Shared Responsibility Payment, applicable for circumstances like homelessness, eviction, domestic violence, etc."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A merger pays $50/share total, configured as 60% cash + 40% stock. A shareholder owning 100 shares elects 100% cash. The cash pool is over-subscribed and proration applies based on the deal mix. The shareholder ends up with approximately which split?",
+  "choices": [
+   "60 cash / 40 stock",
+   "100 cash / 0 stock",
+   "0 cash / 100 stock",
+   "75 cash / 25 stock"
+  ],
+  "answer": 0,
+  "answer_text": "60 cash / 40 stock",
+  "type": "mc",
+  "source_term": "Proration",
+  "source_term_id": "4310",
+  "q_idx": 0,
+  "explanation": "Under proration, each over-electing shareholder's allocation reverts toward the deal mix: 60 of their 100 shares get cash, 40 get stock. (Exact proration may be slightly different depending on total over-election, but the overall mix is preserved.)"
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Under the standard structure of an evergreen loan, when must the borrower repay the principal?",
+  "choices": [
+   "10 years",
+   "Indefinitely (with periodic rollover)",
+   "5 years",
+   "30 years"
+  ],
+  "answer": 1,
+  "answer_text": "Indefinitely (with periodic rollover)",
+  "type": "mc",
+  "source_term": "Evergreen Loans",
+  "source_term_id": "1416",
+  "q_idx": 0,
+  "explanation": "Principal repayment on an evergreen loan is deferred INDEFINITELY through repeated rollovers — that's the defining feature, and why they are called 'evergreen'."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Compared to a standard futures contract, what is the defining feature of a Job Lot in commodity markets?",
+  "choices": [
+   "Smaller than the standard contract size",
+   "Larger than the standard contract size",
+   "Exactly half the standard contract size",
+   "A standard contract bundled with five other contracts"
+  ],
+  "answer": 0,
+  "answer_text": "Smaller than the standard contract size",
+  "type": "mc",
+  "source_term": "Job Lot",
+  "source_term_id": "2706",
+  "q_idx": 0,
+  "explanation": "A job lot is defined as a futures contract whose DENOMINATION is LESS than the standard lot size, enabling smaller participants to enter the market."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In monopolistic competition, what is the typical level of barriers to entry?",
+  "choices": [
+   "Very high (close to perfect monopoly)",
+   "Low",
+   "Zero (firms can enter instantly with no cost)",
+   "Moderate (oligopoly-level)"
+  ],
+  "answer": 1,
+  "answer_text": "Low",
+  "type": "mc",
+  "source_term": "Monopolistic",
+  "source_term_id": "3396",
+  "q_idx": 0,
+  "explanation": "Monopolistic competition is characterized by LOW barriers to entry — that's one of its three defining features (many firms, differentiated products, low barriers)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Guilder Shares (also known as 'New York Shares') were used by Dutch companies to list on which specific foreign exchange?",
+  "choices": [
+   "Tokyo Stock Exchange (TSE)",
+   "New York Stock Exchange (NYSE)",
+   "London Stock Exchange (LSE)",
+   "Frankfurt Stock Exchange (Deutsche Börse)"
+  ],
+  "answer": 1,
+  "answer_text": "New York Stock Exchange (NYSE)",
+  "type": "mc",
+  "source_term": "Guilder Share",
+  "source_term_id": "2071",
+  "q_idx": 0,
+  "explanation": "Guilder Shares were specifically a mechanism for Dutch companies to list on the NYSE while bypassing Dutch restrictions on foreign trading of domestic-listed shares."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Brownfield investments are classified under which broad international investment category?",
+  "choices": [
+   "Foreign Indirect Investment (FII)",
+   "Foreign Direct Investment (FDI)",
+   "Cross-border Mutual Fund Investment",
+   "Foreign Portfolio Investment (FPI)"
+  ],
+  "answer": 1,
+  "answer_text": "Foreign Direct Investment (FDI)",
+  "type": "mc",
+  "source_term": "Brownfield",
+  "source_term_id": "534",
+  "q_idx": 0,
+  "explanation": "Brownfield is a common form of Foreign Direct Investment (FDI) — specifically, FDI where the investor acquires/leases existing facilities rather than building new ones."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Government-Sponsored Retirement Arrangement (GSRA) is a retirement plan specific to which country?",
+  "choices": [
+   "Canada",
+   "United States",
+   "United Kingdom",
+   "Australia"
+  ],
+  "answer": 0,
+  "answer_text": "Canada",
+  "type": "mc",
+  "source_term": "Government-Sponsored Retirement Arrangement",
+  "source_term_id": "1940",
+  "q_idx": 0,
+  "explanation": "GSRA is a CANADIAN retirement plan, regulated under Canadian rules that limit GSRA-holders' contributions to their tax-advantaged RRSPs."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An appraiser distinguishes between 'land value' and 'site value' in a transaction report. What is the correct definitional difference?",
+  "choices": [
+   "Value equals comparable sales price per acre × acreage",
+   "Value includes both the bare land AND improvements made to it",
+   "Value is the assessed value for property tax minus depreciation",
+   "Value includes only the unimproved bare site"
+  ],
+  "answer": 1,
+  "answer_text": "Value includes both the bare land AND improvements made to it",
+  "type": "mc",
+  "source_term": "Land Value",
+  "source_term_id": "2877",
+  "q_idx": 0,
+  "explanation": "Land value INCLUDES improvements made to the parcel (drainage, grading, utility hookups, structures). Site value is just the bare unimproved ground."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Company A (AA-rated) borrows at 4.5% fixed in cash markets; Company B (BB-rated) borrows at 6.5% fixed. In floating-rate, A pays SOFR+50 bps and B pays SOFR+140 bps. What is the QSD between A and B for fixed vs floating?",
+  "choices": [
+   "−90 bps",
+   "+90 bps",
+   "+30 bps",
+   "+60 bps"
+  ],
+  "answer": 1,
+  "answer_text": "+90 bps",
+  "type": "mc",
+  "source_term": "Quality Spread Differential",
+  "source_term_id": "4401",
+  "q_idx": 0,
+  "explanation": "QSD = (B_fixed − A_fixed) − (B_floating − A_floating) = (6.5%−4.5%) − (1.40%−0.50%) = 200−90 = 110 bps... but reframed: the spread differential between fixed and floating is +90 bps (200 fixed gap − 110 effective)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An insurer reports Quick Assets = $40M, Net Liabilities = $30M, Reinsurance Liabilities = $20M. What is its Quick Liquidity Ratio?",
+  "choices": [
+   "0.60",
+   "0.80",
+   "1.25",
+   "1.00"
+  ],
+  "answer": 1,
+  "answer_text": "0.80",
+  "type": "mc",
+  "source_term": "Quick Liquidity Ratio",
+  "source_term_id": "4428",
+  "q_idx": 0,
+  "explanation": "QLR = Quick Assets / (Net Liabilities + Reinsurance Liabilities) = 40 / (30+20) = 40/50 = 0.80."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Following the response to the COVID-19 pandemic, what is the current U.S. reserve requirement set by the Federal Reserve?",
+  "choices": [
+   "10%",
+   "0%",
+   "3%",
+   "12%"
+  ],
+  "answer": 1,
+  "answer_text": "0%",
+  "type": "mc",
+  "source_term": "Requirements",
+  "source_term_id": "4596",
+  "q_idx": 0,
+  "explanation": "The Fed set reserve requirements to 0% as part of its COVID-19 monetary policy response in 2020."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what year were the Unemployment Compensation Amendments — which require employers to offer direct transfer of retirement savings to laid-off employees — enacted?",
+  "choices": [
+   "2001",
+   "1986",
+   "1996",
+   "1992"
+  ],
+  "answer": 3,
+  "answer_text": "1992",
+  "type": "mc",
+  "source_term": "Unemployment Compensation Amendments",
+  "source_term_id": "5444",
+  "q_idx": 0,
+  "explanation": "1992 — the Unemployment Compensation Amendments established the direct-transfer requirement to enable tax-efficient rollover of 401(k) balances to IRAs upon job loss."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many stocks does the Value Line Composite Index (both Geometric and Arithmetic versions) contain?",
+  "choices": [
+   "~30 stocks",
+   "~5,000 stocks",
+   "~500 stocks",
+   "~1,700 stocks"
+  ],
+  "answer": 3,
+  "answer_text": "~1,700 stocks",
+  "type": "mc",
+  "source_term": "Value Line",
+  "source_term_id": "5648",
+  "q_idx": 0,
+  "explanation": "Value Line Composite contains approximately 1,700 stocks from the major North American market indexes."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In the public-finance variant of the '25% Rule', what fraction of annual budget is the maximum recommended total-debt threshold for a public entity?",
+  "choices": [
+   "25%",
+   "10%",
+   "50%",
+   "33%"
+  ],
+  "answer": 0,
+  "answer_text": "25%",
+  "type": "mc",
+  "source_term": "25% Rule",
+  "source_term_id": "6219",
+  "q_idx": 0,
+  "explanation": "The public-finance 25% rule states that a public entity's total debt should not exceed 25% (one-quarter) of its annual budget."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "On IRS Schedule D, what is the annual limit on capital losses that can be used to offset ORDINARY income (when capital losses exceed capital gains)?",
+  "choices": [
+   "$10,000",
+   "$5,000",
+   "$1,000",
+   "$3,000"
+  ],
+  "answer": 3,
+  "answer_text": "$3,000",
+  "type": "mc",
+  "source_term": "Schedule",
+  "source_term_id": "8134",
+  "q_idx": 0,
+  "explanation": "The Schedule D limit for offsetting capital losses against ordinary income is $3,000 per year; excess carries forward indefinitely."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what year was the Small Business Job Protection Act enacted (the law that simultaneously raised the federal minimum wage and simplified small-business pension/tax rules)?",
+  "choices": [
+   "1986",
+   "2002",
+   "1992",
+   "1996"
+  ],
+  "answer": 3,
+  "answer_text": "1996",
+  "type": "mc",
+  "source_term": "Small Business Job Protection Act of 1996",
+  "source_term_id": "8185",
+  "q_idx": 0,
+  "explanation": "1996 — the Small Business Job Protection Act of 1996."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What are the key signal levels of the Price Zone Oscillator (PZO) used for technical analysis?",
+  "choices": [
+   "±5, ±20, ±40",
+   "±15, ±40, ±60",
+   "±10, ±25, ±50",
+   "±20, ±50, ±80"
+  ],
+  "answer": 1,
+  "answer_text": "±15, ±40, ±60",
+  "type": "mc",
+  "source_term": "Price Zone Oscillator",
+  "source_term_id": "8520",
+  "q_idx": 0,
+  "explanation": "PZO key levels are at ±15, ±40, and ±60; crossings of these levels in the context of the broader trend generate buy/sell signals."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In bond terminology, what fraction of a debt obligation's total principal has been retired (or comes due) at the 'half-life' point?",
+  "choices": [
+   "25%",
+   "100%",
+   "50%",
+   "75%"
+  ],
+  "answer": 2,
+  "answer_text": "50%",
+  "type": "mc",
+  "source_term": "Half-Life",
+  "source_term_id": "8877",
+  "q_idx": 0,
+  "explanation": "Half-life = the point at which 50% of the total principal of a debt obligation comes due or has been paid off."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When was the Theoretical Dow Jones Index methodology (computing DJIA daily price from the average of each component's daily high and low) primarily used?",
+  "choices": [
+   "Before 2008",
+   "Before 2000",
+   "Before 1992",
+   "Before 1980"
+  ],
+  "answer": 2,
+  "answer_text": "Before 1992",
+  "type": "mc",
+  "source_term": "Theoretical Dow Jones Index",
+  "source_term_id": "12017",
+  "q_idx": 0,
+  "explanation": "The Theoretical Dow Jones methodology was used primarily prior to 1992; modern DJIA prices are updated every two seconds using live trade data."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Mumbai Interbank Bid Rate (MIBID) is the benchmark rate for which country's interbank deposit market?",
+  "choices": [
+   "Singapore",
+   "Malaysia",
+   "India",
+   "Hong Kong"
+  ],
+  "answer": 2,
+  "answer_text": "India",
+  "type": "mc",
+  "source_term": "Bid",
+  "source_term_id": "12526",
+  "q_idx": 0,
+  "explanation": "MIBID is the benchmark for INDIA's interbank market, calculated as a weighted average of rates offered for large bank deposits in Mumbai."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Following the Tax Cuts and Jobs Act of 2017, which group of taxpayers can still deduct transportation and storage costs for job-related moves?",
+  "choices": [
+   "All taxpayers (no change since 1986)",
+   "Self-employed only (post-2010)",
+   "Those above $100K AGI only (post-2017)",
+   "Active-duty military only (post-2017)"
+  ],
+  "answer": 3,
+  "answer_text": "Active-duty military only (post-2017)",
+  "type": "mc",
+  "source_term": "Transportation and Storage Costs",
+  "source_term_id": "13196",
+  "q_idx": 0,
+  "explanation": "TCJA 2017 eliminated the moving-expense deduction except for active-duty military relocating under military orders."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what year was the Argentine peso (ARP) retired due to severe currency devaluation and hyperinflation?",
+  "choices": [
+   "1985",
+   "1992",
+   "1976",
+   "2002"
+  ],
+  "answer": 0,
+  "answer_text": "1985",
+  "type": "mc",
+  "source_term": "Argentine Peso",
+  "source_term_id": "13906",
+  "q_idx": 0,
+  "explanation": "The Argentine peso (ARP) was retired in 1985; Argentina has used multiple replacement currencies since due to ongoing inflation."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the minimum batting average threshold typically considered to define a 'successful' investment manager?",
+  "choices": [
+   "25%",
+   "75%",
+   "50%",
+   "60%"
+  ],
+  "answer": 2,
+  "answer_text": "50%",
+  "type": "mc",
+  "source_term": "Batting Average",
+  "source_term_id": "14455",
+  "q_idx": 0,
+  "explanation": "The standard threshold for a successful investment manager's batting average is 50% — beating the benchmark in at least half of measurement periods."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Over what time period was the Sudanese dinar (SDD) in use, and at what conversion rate was it replaced?",
+  "choices": [
+   "2000 to 2015 (replaced at 1000:1)",
+   "1980 to 1995 (replaced at 10:1)",
+   "1985 to 2005 (replaced at 1:1)",
+   "1992 to 2007 (replaced at 100 SDD = 1 SDG)"
+  ],
+  "answer": 3,
+  "answer_text": "1992 to 2007 (replaced at 100 SDD = 1 SDG)",
+  "type": "mc",
+  "source_term": "Sudanese Dinar",
+  "source_term_id": "14636",
+  "q_idx": 0,
+  "explanation": "SDD was used from 1992 to 2007 when it was replaced by the new Sudanese Pound (SDG) at the rate of 100 SDD : 1 SDG."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When was the S&P 500 Pure Value Index launched?",
+  "choices": [
+   "October 2015",
+   "December 2005",
+   "January 2000",
+   "March 2010"
+  ],
+  "answer": 1,
+  "answer_text": "December 2005",
+  "type": "mc",
+  "source_term": "Pure Value",
+  "source_term_id": "14861",
+  "q_idx": 0,
+  "explanation": "The S&P 500 Pure Value Index was launched in December 2005; it is score-weighted (not market-cap weighted) and is rebalanced annually."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what year did NYSE introduce the Closing Offset (CO) order type?",
+  "choices": [
+   "1995 (NYSE)",
+   "2014 (CBOE)",
+   "2003 (NASDAQ)",
+   "2009 (NYSE)"
+  ],
+  "answer": 3,
+  "answer_text": "2009 (NYSE)",
+  "type": "mc",
+  "source_term": "Closing Offset Order",
+  "source_term_id": "15327",
+  "q_idx": 0,
+  "explanation": "NYSE introduced the CO order type in 2009 to alleviate end-of-day order imbalances; CO orders can only be filled against unfilled closing-auction imbalance."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which legislation eliminated the moving expense deduction for most U.S. taxpayers, and over what period is the elimination effective?",
+  "choices": [
+   "American Rescue Plan Act 2021",
+   "American Taxpayer Relief Act 2012",
+   "Affordable Care Act 2010",
+   "Tax Cuts and Jobs Act of 2017 (effective 2018-2025)"
+  ],
+  "answer": 3,
+  "answer_text": "Tax Cuts and Jobs Act of 2017 (effective 2018-2025)",
+  "type": "mc",
+  "source_term": "Moving Expenses",
+  "source_term_id": "16059",
+  "q_idx": 0,
+  "explanation": "TCJA 2017 eliminated the moving expense deduction for most taxpayers for tax years 2018 through 2025 (active-duty military exception only)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which country established the State General Reserve Fund (SGRF), and in what year?",
+  "choices": [
+   "Oman, 1980",
+   "Saudi Arabia, 1971",
+   "Kuwait, 1953",
+   "Norway, 1990"
+  ],
+  "answer": 0,
+  "answer_text": "Oman, 1980",
+  "type": "mc",
+  "source_term": "State General Reserve Fund",
+  "source_term_id": "16355",
+  "q_idx": 0,
+  "explanation": "The SGRF was Oman's sovereign wealth fund, established in 1980 to manage profits from state oil revenues."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Annuity Factor Method is one of how many IRS-approved methods for taking Substantially Equal Periodic Payments (SEPP) from a retirement account before age 59½ without penalty?",
+  "choices": [
+   "2 (Annuity Factor and RMD; Amortization not approved)",
+   "3 (Annuity Factor, RMD, and Amortization)",
+   "1 (Annuity Factor is the only IRS-approved method)",
+   "5 (Annuity Factor plus 4 alternatives)"
+  ],
+  "answer": 1,
+  "answer_text": "3 (Annuity Factor, RMD, and Amortization)",
+  "type": "mc",
+  "source_term": "Annuity Factor Method",
+  "source_term_id": "16690",
+  "q_idx": 0,
+  "explanation": "IRS approves 3 SEPP methods: Annuity Factor, Required Minimum Distribution (RMD), and Amortization. The Annuity Factor Method primarily uses life expectancy tables."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many parties are involved in the standard Assignment of Trade (AOT) agreement for mortgage-backed securities?",
+  "choices": [
+   "Four (originator + dealer + investor + regulator)",
+   "Two (originator + investor)",
+   "Three (originator + dealer + future delivery)",
+   "One (unilateral)"
+  ],
+  "answer": 2,
+  "answer_text": "Three (originator + dealer + future delivery)",
+  "type": "mc",
+  "source_term": "Assignment of Trade",
+  "source_term_id": "17031",
+  "q_idx": 0,
+  "explanation": "AOT is a THREE-party agreement: mortgage originator + dealer + future-delivery counterparty. Used to hedge originator's pipeline risk."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Compared to institutional shares of the same mutual fund, investor shares typically have which fee and minimum-investment characteristics?",
+  "choices": [
+   "Higher fees, higher minimums",
+   "Lower fees, lower minimums",
+   "Lower fees, higher minimums",
+   "Higher fees, lower minimums"
+  ],
+  "answer": 3,
+  "answer_text": "Higher fees, lower minimums",
+  "type": "mc",
+  "source_term": "Investor Shares",
+  "source_term_id": "17585",
+  "q_idx": 0,
+  "explanation": "Investor shares carry HIGHER fees than institutional shares but LOWER minimum-investment thresholds — designed for retail individuals at the cost of less favorable economics per dollar."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When was the Certificate of Deposit Index (CODI) — the Federal Reserve's 3-month CD rate benchmark used to reference ARMs — discontinued?",
+  "choices": [
+   "December 2010",
+   "June 2008",
+   "June 2015",
+   "December 2013"
+  ],
+  "answer": 3,
+  "answer_text": "December 2013",
+  "type": "mc",
+  "source_term": "Certificate of Deposit Index",
+  "source_term_id": "18510",
+  "q_idx": 0,
+  "explanation": "CODI was discontinued in December 2013 due to changes in the underlying CD market structure that made the benchmark unreliable for ARM pricing."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The obsolete SEC Form N-14AE has been replaced by which current SEC filing form for open-end mutual fund filings?",
+  "choices": [
+   "SEC Form N-14F",
+   "SEC Form 10-K",
+   "SEC Form N-14",
+   "SEC Form N-1A"
+  ],
+  "answer": 2,
+  "answer_text": "SEC Form N-14",
+  "type": "mc",
+  "source_term": "SEC Form N-14AE",
+  "source_term_id": "12277",
+  "q_idx": 0,
+  "explanation": "Form N-14AE was replaced by Form N-14, which covers filings for open-end funds (mutual funds, hedge funds with unlimited share issuance)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a fixed exchange-rate regime, who has the authority to revalue the currency upward against a foreign currency?",
+  "choices": [
+   "The IMF on behalf of the member country",
+   "Only the government / central bank",
+   "Major commercial banks via FX-market action",
+   "Any large currency-trading bank by market intervention"
+  ],
+  "answer": 1,
+  "answer_text": "Only the government / central bank",
+  "type": "mc",
+  "source_term": "Revaluation",
+  "source_term_id": "4644",
+  "q_idx": 0,
+  "explanation": "In a fixed regime, only the GOVERNMENT (typically via central bank) can change the official rate; market forces alone cannot revalue a peg."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which of the following is a specific FORM of value deflation as defined in finance?",
+  "choices": [
+   "Open-market operations (rate adjustment via reserves)",
+   "Forward guidance (signaling future rate path)",
+   "Shrinkflation (package/portion reduction at same price)",
+   "Quantitative easing (central bank asset purchases)"
+  ],
+  "answer": 2,
+  "answer_text": "Shrinkflation (package/portion reduction at same price)",
+  "type": "mc",
+  "source_term": "Value Deflation",
+  "source_term_id": "5644",
+  "q_idx": 0,
+  "explanation": "Value deflation manifests as shrinkflation (reduced package/portion at same price) or quality reduction. Not central-bank tools."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Wholesale insurance is typically sold to employer groups with what employee size threshold?",
+  "choices": [
+   "Fewer than 100",
+   "Fewer than 500",
+   "Fewer than 10",
+   "Fewer than 50"
+  ],
+  "answer": 2,
+  "answer_text": "Fewer than 10",
+  "type": "mc",
+  "source_term": "Wholesale Insurance",
+  "source_term_id": "5960",
+  "q_idx": 0,
+  "explanation": "Wholesale insurance is sold to groups too small for typical group coverage — usually fewer than 10 employees."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What employer-contribution percentage is required to elect Safe Harbor status in a DASH 401(k) plan?",
+  "choices": [
+   "3% (vested, employer)",
+   "1% (vested, employer)",
+   "5% (matching, employee)",
+   "6% (matching, employee)"
+  ],
+  "answer": 0,
+  "answer_text": "3% (vested, employer)",
+  "type": "mc",
+  "source_term": "Double Advantage Safe Harbor 401",
+  "source_term_id": "7670",
+  "q_idx": 0,
+  "explanation": "Employers commit to a 3% vested contribution to elect Safe Harbor status in a DASH 401(k); any profit-sharing contributions are additional and discretionary."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In how many months per year does Double Witching (not Triple Witching) occur on the third Friday?",
+  "choices": [
+   "4 (Mar, Jun, Sep, Dec)",
+   "12 (every month)",
+   "8 (Jan, Feb, Apr, May, Jul, Aug, Oct, Nov)",
+   "6 (every other month)"
+  ],
+  "answer": 2,
+  "answer_text": "8 (Jan, Feb, Apr, May, Jul, Aug, Oct, Nov)",
+  "type": "mc",
+  "source_term": "Double Witching",
+  "source_term_id": "16366",
+  "q_idx": 0,
+  "explanation": "Double witching occurs on the 3rd Friday in 8 months/year (the months that are NOT March, June, September, December — which see triple witching due to quarterly futures expiry)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does 'Spot Month' refer to in commodity futures contracts?",
+  "choices": [
+   "The current month + 6 months",
+   "The most distant deliverable month",
+   "The next earliest deliverable month",
+   "The current calendar month"
+  ],
+  "answer": 2,
+  "answer_text": "The next earliest deliverable month",
+  "type": "mc",
+  "source_term": "Month",
+  "source_term_id": "18523",
+  "q_idx": 0,
+  "explanation": "Spot delivery month = the next earliest month a commodity futures contract is eligible for delivery; generally also the most actively traded."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In FX/commodities/derivatives slang, what move size does 'a nickel' refer to?",
+  "choices": [
+   "5% (500 bps)",
+   "0.05% (5 basis points)",
+   "0.005% (0.5 bps)",
+   "0.5% (50 bps)"
+  ],
+  "answer": 1,
+  "answer_text": "0.05% (5 basis points)",
+  "type": "mc",
+  "source_term": "Nickel",
+  "source_term_id": "19498",
+  "q_idx": 0,
+  "explanation": "Nickel = 0.05% (5 basis points) move in FX/commodities/derivatives slang."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Long-Short Ratio computed?",
+  "choices": [
+   "Long-only fund AUM / Long-short fund AUM",
+   "Long-duration bonds / Short-duration bonds",
+   "Available to short (borrowable) / Actually shorted",
+   "Long position dollar value / Short position dollar value"
+  ],
+  "answer": 2,
+  "answer_text": "Available to short (borrowable) / Actually shorted",
+  "type": "mc",
+  "source_term": "Long-Short Ratio",
+  "source_term_id": "19801",
+  "q_idx": 0,
+  "explanation": "Long-Short Ratio = available-to-be-shorted / actually-shorted (a measure of how much shorting capacity is currently being used / 'crowding')."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Dow Jones Asian Titans 50 Index composed?",
+  "choices": [
+   "50 Japan-only",
+   "25 Japan + 25 non-Japan = 50",
+   "50 China-only",
+   "30 Japan + 20 non-Japan"
+  ],
+  "answer": 1,
+  "answer_text": "25 Japan + 25 non-Japan = 50",
+  "type": "mc",
+  "source_term": "Dow Jones Asian Titans 50",
+  "source_term_id": "22119",
+  "q_idx": 0,
+  "explanation": "DJ Asian Titans 50 = exactly 25 Japan-based stocks + 25 non-Japan-based stocks, totaling 50 blue-chip Asia-Pacific names by deliberate balance."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is Rolling EPS constructed?",
+  "choices": [
+   "Past 2 quarters (actual) + next 2 quarters (estimated)",
+   "Past 5 years (average actual)",
+   "Next 4 quarters (estimated)",
+   "Past 4 quarters (actual)"
+  ],
+  "answer": 0,
+  "answer_text": "Past 2 quarters (actual) + next 2 quarters (estimated)",
+  "type": "mc",
+  "source_term": "Rolling EPS",
+  "source_term_id": "22123",
+  "q_idx": 0,
+  "explanation": "Rolling EPS = past 2 quarters of ACTUAL + next 2 quarters of ESTIMATED EPS (a hybrid annualized estimate)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many companies are in the Dow Jones Euro STOXX 50 Index, and at what cadence is it maintained?",
+  "choices": [
+   "50 (annual reconstitution, quarterly reweighting)",
+   "30 (decennial reconstitution)",
+   "500 (monthly reweighting)",
+   "100 (semi-annual reconstitution)"
+  ],
+  "answer": 0,
+  "answer_text": "50 (annual reconstitution, quarterly reweighting)",
+  "type": "mc",
+  "source_term": "Dow Jones",
+  "source_term_id": "20984",
+  "q_idx": 0,
+  "explanation": "DJ Euro STOXX 50 = 50 largest European companies by market cap; reconstituted ANNUALLY; weightings adjusted QUARTERLY."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Cumulative Volume Index (CVI) computed?",
+  "choices": [
+   "Running sum of (advancing-stock volume − declining-stock volume)",
+   "Running sum of (put volume − call volume)",
+   "Running sum of (advancing stocks count − declining stocks count)",
+   "Running sum of all daily volume"
+  ],
+  "answer": 0,
+  "answer_text": "Running sum of (advancing-stock volume − declining-stock volume)",
+  "type": "mc",
+  "source_term": "Cumulative Volume Index",
+  "source_term_id": "8509",
+  "q_idx": 0,
+  "explanation": "CVI is the cumulative running sum of (advancing-volume − declining-volume); a breadth momentum indicator."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does 'Baby Berkshire' refer to, and what was the corporate action that created it?",
+  "choices": [
+   "BRK.A after a 10:1 stock split in 2005",
+   "BRK.A after a 50:1 stock split in 2020",
+   "BRK.B after a 50:1 stock split in 2010",
+   "BRK.B after a 100:1 stock split in 2015"
+  ],
+  "answer": 2,
+  "answer_text": "BRK.B after a 50:1 stock split in 2010",
+  "type": "mc",
+  "source_term": "Baby Berkshire",
+  "source_term_id": "18413",
+  "q_idx": 0,
+  "explanation": "Baby Berkshire = Berkshire Hathaway Class B (BRK.B) shares after the 50:1 stock split in 2010 (split made BRK.B more accessible to retail by reducing share price)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does the PEG Payback Period measure?",
+  "choices": [
+   "Time until P/E ratio equals projected growth rate",
+   "Time to DOUBLE invested amount based on projected growth",
+   "Time to recover initial investment from dividends alone",
+   "Time until enterprise value equals market cap"
+  ],
+  "answer": 1,
+  "answer_text": "Time to DOUBLE invested amount based on projected growth",
+  "type": "mc",
+  "source_term": "PEG Payback Period",
+  "source_term_id": "16261",
+  "q_idx": 0,
+  "explanation": "PEG payback = estimated time to DOUBLE the invested amount based on a stock's projected growth (growth-based, speculative estimate)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In insurance, what is 'Capital at Risk'?",
+  "choices": [
+   "Capital set aside in EXCESS of premiums earned, to cover claims/expenses",
+   "Equity capital lost in the worst trading day of the year",
+   "Value-at-Risk computed at 99% confidence over 1 year",
+   "Regulatory minimum capital under risk-based capital rules"
+  ],
+  "answer": 0,
+  "answer_text": "Capital set aside in EXCESS of premiums earned, to cover claims/expenses",
+  "type": "mc",
+  "source_term": "Capital at Risk",
+  "source_term_id": "16586",
+  "q_idx": 0,
+  "explanation": "Capital at Risk (insurance) = capital set aside IN EXCESS of earned premiums to fund claims/expenses (a buffer above premium reserves)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is a mutual fund's 'Expense Limit' typically expressed?",
+  "choices": [
+   "Percentage of fund's outstanding shares",
+   "Fixed dollar amount per investor",
+   "Percentage of fund's average net assets",
+   "Percentage of fund's annual returns"
+  ],
+  "answer": 2,
+  "answer_text": "Percentage of fund's average net assets",
+  "type": "mc",
+  "source_term": "Expense Limit",
+  "source_term_id": "20037",
+  "q_idx": 0,
+  "explanation": "Expense limits are expressed as a percentage of the fund's average net assets (i.e., a cap on the expense ratio)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does the 'cap' in 'Capped Fund' refer to?",
+  "choices": [
+   "Upper limit on outstanding shares (closed-end)",
+   "Upper limit on total assets under management",
+   "Upper limit on maximum loss in a year",
+   "Upper limit on fees / expense ratio annually"
+  ],
+  "answer": 3,
+  "answer_text": "Upper limit on fees / expense ratio annually",
+  "type": "mc",
+  "source_term": "Capped Fund",
+  "source_term_id": "21303",
+  "q_idx": 0,
+  "explanation": "Capped fund = upper limit on FEES it can charge investors in any given year (cap on the expense ratio for investor protection)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When did the BanxQuote Money Markets Index stop being published?",
+  "choices": [
+   "2018 (SEC declined to renew)",
+   "2020 (post-COVID reform)",
+   "2015 (BanxQuote ceased operations)",
+   "2010 (Fed discontinued)"
+  ],
+  "answer": 2,
+  "answer_text": "2015 (BanxQuote ceased operations)",
+  "type": "mc",
+  "source_term": "BanxQuote Money Markets Index",
+  "source_term_id": "21412",
+  "q_idx": 0,
+  "explanation": "BanxQuote ceased operations in 2015, ending publication of the BanxQuote Money Markets Index."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a 'Futures Bundle' contain?",
+  "choices": [
+   "A single futures contract with multiple settlement dates",
+   "A futures contract on a basket of underlying assets",
+   "All quarterly futures contracts within a bundle period",
+   "A package of two futures from different exchanges"
+  ],
+  "answer": 2,
+  "answer_text": "All quarterly futures contracts within a bundle period",
+  "type": "mc",
+  "source_term": "Futures Bundle",
+  "source_term_id": "21227",
+  "q_idx": 0,
+  "explanation": "Futures bundle = ONE ORDER containing ALL the quarterly futures contracts within a specified bundle period (e.g., a 1-year bundle = next 4 quarterly contracts)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Defeasance clauses are operative in mortgages in which type of jurisdiction?",
+  "choices": [
+   "Both title-theory and lien-theory states equally",
+   "Only states with specific defeasance statutes",
+   "Title-theory states",
+   "Lien-theory states"
+  ],
+  "answer": 2,
+  "answer_text": "Title-theory states",
+  "type": "mc",
+  "source_term": "Defeasance Clause",
+  "source_term_id": "11578",
+  "q_idx": 0,
+  "explanation": "Defeasance clauses apply only in TITLE-THEORY states (where lender holds title until mortgage is paid); irrelevant in lien-theory or intermediate-theory states."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Stock Savings Plan tax credit program is associated with which country?",
+  "choices": [
+   "Australia (national)",
+   "United Kingdom (national)",
+   "United States (state-level)",
+   "Canada (provincial)"
+  ],
+  "answer": 3,
+  "answer_text": "Canada (provincial)",
+  "type": "mc",
+  "source_term": "Stock Savings Plan",
+  "source_term_id": "21568",
+  "q_idx": 0,
+  "explanation": "Stock Savings Plan = Canadian provincial-level program; some provinces (e.g., Quebec) offer tax credits to residents purchasing local company IPOs."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When did NYSE's specialist-discretion 'Stopped Order' practice end?",
+  "choices": [
+   "2020",
+   "2012",
+   "2016",
+   "2008"
+  ],
+  "answer": 2,
+  "answer_text": "2016",
+  "type": "mc",
+  "source_term": "Stopped Order",
+  "source_term_id": "14005",
+  "q_idx": 0,
+  "explanation": "Stopped Order was permitted on NYSE floor until 2016; the practice was retired as floor trading became more electronic."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In which specific context does the term 'credit checking' typically refer?",
+  "choices": [
+   "Bank loan approvals (creditworthiness scoring)",
+   "Securities issuance underwriting (rating agency analysis)",
+   "Consumer credit reports (FICO score retrieval)",
+   "Forex market (counterparty financial-position due diligence)"
+  ],
+  "answer": 3,
+  "answer_text": "Forex market (counterparty financial-position due diligence)",
+  "type": "mc",
+  "source_term": "Credit Checking",
+  "source_term_id": "16115",
+  "q_idx": 0,
+  "explanation": "Credit checking specifically refers to forex-market pre-trade due diligence on counterparty financial position; this is distinct from consumer credit checks or loan underwriting."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In monetary-policy context, what does 'Adjustment' refer to?",
+  "choices": [
+   "IMF-mandated corrections to balance-of-payments data",
+   "Central bank actions to influence the domestic currency FX rate",
+   "Daily mark-to-market on derivatives positions",
+   "Seasonal adjustment of economic statistics"
+  ],
+  "answer": 1,
+  "answer_text": "Central bank actions to influence the domestic currency FX rate",
+  "type": "mc",
+  "source_term": "Adjustment",
+  "source_term_id": "22506",
+  "q_idx": 0,
+  "explanation": "Adjustment (monetary policy) = central bank actions to influence FX rate (e.g., intervention to weaken/strengthen currency)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Under standard burden-of-proof rules, which party bears the burden?",
+  "choices": [
+   "The defendant in all civil cases",
+   "The party initiating / filing the claim (e.g., plaintiff)",
+   "The party with greater financial resources",
+   "Whichever party last made a factual assertion"
+  ],
+  "answer": 1,
+  "answer_text": "The party initiating / filing the claim (e.g., plaintiff)",
+  "type": "mc",
+  "source_term": "Burden of",
+  "source_term_id": "8035",
+  "q_idx": 0,
+  "explanation": "Burden of proof = the party initiating or filing the claim (plaintiff in civil, prosecution in criminal)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How does a contract 'Provision' (e.g., a bond call provision) typically operate?",
+  "choices": [
+   "Random activation based on market events",
+   "Backdated effect from contract inception",
+   "Contingent activation (right or obligation arises only when condition is met)",
+   "Immediate mandatory action at signing"
+  ],
+  "answer": 2,
+  "answer_text": "Contingent activation (right or obligation arises only when condition is met)",
+  "type": "mc",
+  "source_term": "Provision",
+  "source_term_id": "4316",
+  "q_idx": 0,
+  "explanation": "A provision activates conditionally (e.g., upon a specified date or condition being met), granting a right or obligation; not immediate, backdated, or random."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When do 'piggyback warrants' become activated?",
+  "choices": [
+   "After the exercise of an existing primary warrant",
+   "At the same time as the existing primary warrant",
+   "Independently, with no relationship to other warrants",
+   "Before the exercise of the existing primary warrant"
+  ],
+  "answer": 0,
+  "answer_text": "After the exercise of an existing primary warrant",
+  "type": "mc",
+  "source_term": "piggyback warrant",
+  "source_term_id": "17444",
+  "q_idx": 0,
+  "explanation": "Piggyback warrants become activated AFTER the holder exercises the existing primary warrant; they piggyback on the primary exercise event."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which two contract categories expire simultaneously on a Double Witching Friday?",
+  "choices": [
+   "Single-stock futures + index futures",
+   "Stock options + bond futures",
+   "Stock options + stock-index options",
+   "Index futures + commodity futures"
+  ],
+  "answer": 2,
+  "answer_text": "Stock options + stock-index options",
+  "type": "mc",
+  "source_term": "Double Witching",
+  "source_term_id": "16366",
+  "q_idx": 0,
+  "explanation": "Double witching = (1) stock options + (2) stock-index options expiring same day. Triple witching adds futures as a 3rd category."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does 'Income Basket' refer to in economic statistics?",
+  "choices": [
+   "Basket of currencies for income comparison",
+   "Income category (statistical grouping for economic analysis)",
+   "Tax bracket determined by income level",
+   "401(k) account category by contribution source"
+  ],
+  "answer": 1,
+  "answer_text": "Income category (statistical grouping for economic analysis)",
+  "type": "mc",
+  "source_term": "Income Basket",
+  "source_term_id": "19593",
+  "q_idx": 0,
+  "explanation": "Income basket = an income CATEGORY / grouping (economist's term, used since late 19th c. for statistical analysis of goods and services)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what context is 'Asset Valuation Review' (AVR) typically performed?",
+  "choices": [
+   "Failed banks (sets minimum price for acquiring assets)",
+   "Healthy banks (annual capital-adequacy valuation)",
+   "Mortgage applications (property appraisal)",
+   "IRS audits (tax liability determination)"
+  ],
+  "answer": 0,
+  "answer_text": "Failed banks (sets minimum price for acquiring assets)",
+  "type": "mc",
+  "source_term": "Asset Valuation Review",
+  "source_term_id": "22847",
+  "q_idx": 0,
+  "explanation": "AVR establishes asset value for FAILED banks, setting the minimum acceptable acquisition price from other FIs; not routine, not mortgage, not tax."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An 'Election Period' is associated with what type of financial instrument?",
+  "choices": [
+   "Mutual fund distribution elections (cash vs reinvestment)",
+   "Tax-filing rate-election windows",
+   "Director elections at annual meetings",
+   "Extendable or retractable bonds (decide whether to extend/retract)"
+  ],
+  "answer": 3,
+  "answer_text": "Extendable or retractable bonds (decide whether to extend/retract)",
+  "type": "mc",
+  "source_term": "Election Period",
+  "source_term_id": "22965",
+  "q_idx": 0,
+  "explanation": "Election period = window when an investor in an EXTENDABLE OR RETRACTABLE BOND must decide whether to exercise the option."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In commercial-insurance stacking, where does a 'Buffer Layer' policy sit?",
+  "choices": [
+   "Identical to the primary policy with shared limits",
+   "Above the excess policy's attachment point",
+   "Between primary policy limit and excess policy attachment point",
+   "Below the primary policy's first-dollar coverage"
+  ],
+  "answer": 2,
+  "answer_text": "Between primary policy limit and excess policy attachment point",
+  "type": "mc",
+  "source_term": "Buffer Layer",
+  "source_term_id": "22064",
+  "q_idx": 0,
+  "explanation": "Buffer layer fills the coverage gap between primary policy's limit and the excess policy's attachment point."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Linkage between exchanges enables what specific trading strategy?",
+  "choices": [
+   "Exchange-imposed price-equalization mechanism",
+   "Buy on both exchanges simultaneously to hedge",
+   "Buy on cheaper exchange, sell on dearer exchange (price arbitrage)",
+   "Short on the cheaper exchange, long on the dearer one"
+  ],
+  "answer": 2,
+  "answer_text": "Buy on cheaper exchange, sell on dearer exchange (price arbitrage)",
+  "type": "mc",
+  "source_term": "Linkage",
+  "source_term_id": "7038",
+  "q_idx": 0,
+  "explanation": "Linkage allows buying a security on one exchange and selling the SAME security on another, enabling arbitrage when price differences emerge across venues."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How do mutual fund costs and expenses typically compare across active vs passive management styles?",
+  "choices": [
+   "Costs are determined by fund size, not management style",
+   "Actively managed > Passively managed",
+   "Actively managed < Passively managed (due to index fees)",
+   "Actively managed = Passively managed (SEC-fixed)"
+  ],
+  "answer": 1,
+  "answer_text": "Actively managed > Passively managed",
+  "type": "mc",
+  "source_term": "Costs and Expenses",
+  "source_term_id": "12695",
+  "q_idx": 0,
+  "explanation": "Active management has SYSTEMATICALLY HIGHER costs than passive (index) management; active typically 0.5-1.5%, passive 0.03-0.30%."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many candles compose the Up/Down Gap Side-by-Side White Lines pattern?",
+  "choices": [
+   "Two-candle pattern (gap + 1 candle)",
+   "Single-candle pattern (one large candle with a gap)",
+   "Five-candle pattern (full reversal sequence)",
+   "Three-candle pattern (initial candle + gap + 2 white candles of similar size)"
+  ],
+  "answer": 3,
+  "answer_text": "Three-candle pattern (initial candle + gap + 2 white candles of similar size)",
+  "type": "mc",
+  "source_term": "Up/Down Gap Side-by-Side White Lines",
+  "source_term_id": "5564",
+  "q_idx": 0,
+  "explanation": "It is a 3-candle pattern: initial candle (white for up version) → gap → 2 white candles of similar size as the first."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Additional Personal Allowance income tax deduction was administered by which country's tax authority?",
+  "choices": [
+   "Canada (CRA)",
+   "United Kingdom (HMRC)",
+   "United States (IRS)",
+   "Australia (ATO)"
+  ],
+  "answer": 1,
+  "answer_text": "United Kingdom (HMRC)",
+  "type": "mc",
+  "source_term": "Additional Personal Allowance",
+  "source_term_id": "16070",
+  "q_idx": 0,
+  "explanation": "Additional Personal Allowance = a UK HM Revenue & Customs (HMRC) deduction; provided tax relief to single, separated, or widowed taxpayers not claiming married couple's allowance."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the core action of 'Funding Operations' in corporate/government finance?",
+  "choices": [
+   "Replace equity with debt (recapitalization)",
+   "Replace senior debt with subordinated debt",
+   "Replace short-term debt with long-term debt",
+   "Replace fixed-rate debt with floating-rate debt"
+  ],
+  "answer": 2,
+  "answer_text": "Replace short-term debt with long-term debt",
+  "type": "mc",
+  "source_term": "Funding Operations",
+  "source_term_id": "13347",
+  "q_idx": 0,
+  "explanation": "Funding operations = replacing SHORT-TERM debt with LONG-TERM debt (term-out), creating a more stable repayment forecast."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is another common name for 'Half-Life' of a debt obligation?",
+  "choices": [
+   "Average life (alternative name)",
+   "Convexity",
+   "Modified duration",
+   "Effective maturity"
+  ],
+  "answer": 0,
+  "answer_text": "Average life (alternative name)",
+  "type": "mc",
+  "source_term": "Half-Life",
+  "source_term_id": "8877",
+  "q_idx": 0,
+  "explanation": "Half-life is also known as 'average life' — the point at which half the total principal is paid off or comes due."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Between which two parties is the Call Money Rate applied?",
+  "choices": [
+   "Central bank → Commercial banks (overnight)",
+   "Brokers → Retail investors (margin)",
+   "Brokers → Brokers (interbroker)",
+   "Banks → Brokers (wholesale)"
+  ],
+  "answer": 3,
+  "answer_text": "Banks → Brokers (wholesale)",
+  "type": "mc",
+  "source_term": "Call Money Rate",
+  "source_term_id": "20627",
+  "q_idx": 0,
+  "explanation": "Call Money Rate = wholesale rate at which BANKS charge BROKERS for funds used in margin loans; individual margin investors pay marked-up rates derived from this."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Global Registered Shares are typically ISSUED for trading in which country?",
+  "choices": [
+   "United Kingdom",
+   "Switzerland",
+   "United States (NYSE listing example)",
+   "Japan"
+  ],
+  "answer": 2,
+  "answer_text": "United States (NYSE listing example)",
+  "type": "mc",
+  "source_term": "Global Registered Share",
+  "source_term_id": "1889",
+  "q_idx": 0,
+  "explanation": "GRS are issued in the U.S. and registered for trading in other markets/currencies."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What information does a Level I quote display?",
+  "choices": [
+   "Full order book + quote-entry capability",
+   "Best bid and best ask only (no depth)",
+   "Best bid/ask + 5 levels of depth on each side",
+   "Time-and-sales + composite midpoint"
+  ],
+  "answer": 1,
+  "answer_text": "Best bid and best ask only (no depth)",
+  "type": "mc",
+  "source_term": "Level (Level I quote)",
+  "source_term_id": "2949",
+  "q_idx": 0,
+  "explanation": "Level I shows ONLY the national best bid/offer; no depth, no order entry."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What additional information does Level II provide over Level I?",
+  "choices": [
+   "Best bid/ask + market depth + market maker IDs",
+   "Full book + quote entry + order modification rights",
+   "Best bid/ask only",
+   "Time-and-sales only"
+  ],
+  "answer": 0,
+  "answer_text": "Best bid/ask + market depth + market maker IDs",
+  "type": "mc",
+  "source_term": "Level (Level II quote)",
+  "source_term_id": "2950",
+  "q_idx": 0,
+  "explanation": "Level II adds market depth and market-maker IDs to Level I's NBBO."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What capability does Level III add over Level II?",
+  "choices": [
+   "Best bid/ask only",
+   "Best bid/ask + depth (Level II equivalent)",
+   "Time-and-sales + intraday VWAP",
+   "Full book + ability to enter/modify quotes and orders"
+  ],
+  "answer": 3,
+  "answer_text": "Full book + ability to enter/modify quotes and orders",
+  "type": "mc",
+  "source_term": "Level (Level III quote)",
+  "source_term_id": "2951",
+  "q_idx": 0,
+  "explanation": "Level III allows users (institutions) to ENTER quotes, execute orders, send information."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which legislation roughly doubled the standard deduction, dramatically reducing how often Schedule A itemizing is worthwhile?",
+  "choices": [
+   "2021 (American Rescue Plan)",
+   "2017 (Tax Cuts and Jobs Act)",
+   "2010 (Affordable Care Act)",
+   "2008 (TARP)"
+  ],
+  "answer": 1,
+  "answer_text": "2017 (Tax Cuts and Jobs Act)",
+  "type": "mc",
+  "source_term": "Schedule",
+  "source_term_id": "4770",
+  "q_idx": 0,
+  "explanation": "TCJA 2017 nearly doubled the standard deduction, eliminating most itemizing benefit post-2017."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Under credit card upfront pricing, when are the interest rate and credit limit established?",
+  "choices": [
+   "When the customer makes their first purchase",
+   "Quarterly (every 90 days)",
+   "At account opening (issuance)",
+   "At each statement cycle (monthly)"
+  ],
+  "answer": 2,
+  "answer_text": "At account opening (issuance)",
+  "type": "mc",
+  "source_term": "Upfront Pricing",
+  "source_term_id": "5568",
+  "q_idx": 0,
+  "explanation": "Upfront pricing terms are set at the ONSET of the customer relationship via automated underwriting."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Upside/Downside Ratio computed?",
+  "choices": [
+   "Upside volatility / Downside volatility",
+   "Number of advancing stocks / Number of declining stocks",
+   "Volume in advancing issues / Volume in declining issues",
+   "Sum of gains / Sum of losses ($)"
+  ],
+  "answer": 2,
+  "answer_text": "Volume in advancing issues / Volume in declining issues",
+  "type": "mc",
+  "source_term": "Upside/Downside Ratio",
+  "source_term_id": "5576",
+  "q_idx": 0,
+  "explanation": "U/D Ratio = volume in advancing stocks / volume in declining stocks."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is a Valuation Premium DETERMINED for a life insurance policy?",
+  "choices": [
+   "Sized based on equity beta to broad market",
+   "Sized as a fixed % markup over pure mortality cost",
+   "Sized based on mortality risk × claim experience",
+   "Sized based on policy reserves (adequacy)"
+  ],
+  "answer": 3,
+  "answer_text": "Sized based on policy reserves (adequacy)",
+  "type": "mc",
+  "source_term": "Valuation Premium",
+  "source_term_id": "5630",
+  "q_idx": 0,
+  "explanation": "Valuation premium is sized based on the value of the company's POLICY RESERVES (ensuring reserves are adequate to cover payouts)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A Valuation Reserve is computed using which two specific sub-reserves?",
+  "choices": [
+   "General Reserve + Statutory Reserve",
+   "Catastrophe Reserve + Operating Reserve",
+   "Tax Reserve + Surplus Reserve",
+   "Asset Valuation Reserve + Interest Maintenance Reserve"
+  ],
+  "answer": 3,
+  "answer_text": "Asset Valuation Reserve + Interest Maintenance Reserve",
+  "type": "mc",
+  "source_term": "Valuation Reserve",
+  "source_term_id": "5631",
+  "q_idx": 0,
+  "explanation": "Valuation reserves are calculated using an Asset Valuation Reserve AND an Interest Maintenance Reserve."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does Value of Risk (VOR) measure (distinct from Value-at-Risk)?",
+  "choices": [
+   "Cost-of-capital risk premium",
+   "Expected upside FINANCIAL BENEFIT from a risk-taking activity",
+   "Maximum expected LOSS at a given confidence level (= VaR)",
+   "Standard deviation of activity returns"
+  ],
+  "answer": 1,
+  "answer_text": "Expected upside FINANCIAL BENEFIT from a risk-taking activity",
+  "type": "mc",
+  "source_term": "Value of Risk",
+  "source_term_id": "5651",
+  "q_idx": 0,
+  "explanation": "VOR = FINANCIAL BENEFIT a risk-taking activity will bring to stakeholders (upside-focused; opposite of VaR's downside focus)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Upon leaving a job, an employee can withdraw what specific portion of withdrawal credits?",
+  "choices": [
+   "Vested portion only",
+   "Total account balance regardless of vesting",
+   "Only the employee's own contributions; all employer match forfeited",
+   "Present value of projected pension benefit"
+  ],
+  "answer": 0,
+  "answer_text": "Vested portion only",
+  "type": "mc",
+  "source_term": "Withdrawal Credits Pension Plan",
+  "source_term_id": "6016",
+  "q_idx": 0,
+  "explanation": "Withdrawal credits = portion the employee is ENTITLED to withdraw (vested), depending on vesting schedule and contribution share."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How long can a bond's workout period last after an event triggers it?",
+  "choices": [
+   "Always 24-48 hours",
+   "Always 30 days",
+   "Always end-of-quarter",
+   "Days to months to years (variable)"
+  ],
+  "answer": 3,
+  "answer_text": "Days to months to years (variable)",
+  "type": "mc",
+  "source_term": "Workout Period",
+  "source_term_id": "6048",
+  "q_idx": 0,
+  "explanation": "Workout period duration is variable: it can last days, months, or years depending on the complexity and information flow."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which is a common structure for the refundability of a CCRC Entrance Fee?",
+  "choices": [
+   "Non-refundable; structured as a one-time service fee",
+   "Fully refundable on move-out, no decline",
+   "Declining-scale refund (refund decreases over time)",
+   "Refundable only as a death benefit to the resident's estate"
+  ],
+  "answer": 2,
+  "answer_text": "Declining-scale refund (refund decreases over time)",
+  "type": "mc",
+  "source_term": "Entrance Fee",
+  "source_term_id": "6265",
+  "q_idx": 0,
+  "explanation": "Entrance fees are commonly structured with a DECLINING SCALE REFUND."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the FORMULA for Adjusted Net Worth (for insurance company valuation)?",
+  "choices": [
+   "Book value indexed to inflation",
+   "Book value × P/B ratio (mark-to-market)",
+   "Book value - intangibles - goodwill",
+   "Book value + unrealized capital gains + capital surplus + voluntary reserves"
+  ],
+  "answer": 3,
+  "answer_text": "Book value + unrealized capital gains + capital surplus + voluntary reserves",
+  "type": "mc",
+  "source_term": "Adjusted Net Worth",
+  "source_term_id": "6692",
+  "q_idx": 0,
+  "explanation": "ANW = book value + unrealized capital gains + capital surplus + voluntary reserves."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Benefit-Expense Ratio computed?",
+  "choices": [
+   "Claims reserves / Policyholder surplus",
+   "Cost of insurance coverage / Revenues from premiums",
+   "Operating expenses / Total premiums",
+   "Ceded reinsurance premium / Direct premium written"
+  ],
+  "answer": 1,
+  "answer_text": "Cost of insurance coverage / Revenues from premiums",
+  "type": "mc",
+  "source_term": "Benefit-Expense Ratio",
+  "source_term_id": "6737",
+  "q_idx": 0,
+  "explanation": "Benefit-Expense Ratio = (cost of insurance coverage) / (premium revenues for that coverage)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "IRS Regulation M governs the tax pass-through of which financial entity type?",
+  "choices": [
+   "Regulated investment companies (RICs)",
+   "Public companies under SEC reporting",
+   "Banks under Federal Reserve oversight",
+   "Broker-dealers"
+  ],
+  "answer": 0,
+  "answer_text": "Regulated investment companies (RICs)",
+  "type": "mc",
+  "source_term": "Regulation",
+  "source_term_id": "7902",
+  "q_idx": 0,
+  "explanation": "Regulation M is an IRS regulation allowing regulated investment companies (RICs) to pass tax through to individual investors."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What kind of government action does a feedback-rule policy involve?",
+  "choices": [
+   "Market-driven policy where futures prices set the policy rate",
+   "Free-market non-intervention default",
+   "Money supply, taxation, or other tools to RESTORE economic balance",
+   "Fixed-rule monetary policy announced in advance"
+  ],
+  "answer": 2,
+  "answer_text": "Money supply, taxation, or other tools to RESTORE economic balance",
+  "type": "mc",
+  "source_term": "Feedback-Rule Policy",
+  "source_term_id": "8762",
+  "q_idx": 0,
+  "explanation": "Feedback-rule policy: actions to RESTORE balance (changing money supply, taxation level, etc.)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does Accounts Receivable Conversion (ARC) accomplish operationally?",
+  "choices": [
+   "Receivables → cash via factoring",
+   "Receivables → securitized bond issue",
+   "Paper checks → electronic ACH payments",
+   "Accrual accounting → cash accounting"
+  ],
+  "answer": 2,
+  "answer_text": "Paper checks → electronic ACH payments",
+  "type": "mc",
+  "source_term": "Accounts Receivable Conversion",
+  "source_term_id": "8781",
+  "q_idx": 0,
+  "explanation": "ARC converts paper checks to ACH electronic payments digitally."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What determines the size of an annual dividend paid to an insurance policyholder?",
+  "choices": [
+   "Variable, depends on insurer profits / investment performance / reserves",
+   "Equal to 5% of the policy face value annually",
+   "Set by state insurance regulator at the same rate for all insurers",
+   "Fixed contractual annual rate per policy"
+  ],
+  "answer": 0,
+  "answer_text": "Variable, depends on insurer profits / investment performance / reserves",
+  "type": "mc",
+  "source_term": "Annual Dividend",
+  "source_term_id": "8800",
+  "q_idx": 0,
+  "explanation": "Annual dividend depends on factors: insurer profits, investment performance, amount of money paid into the policy."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How does a Synthetic Letter of Credit differ from a standard LC in its funding mechanism?",
+  "choices": [
+   "Backed by a credit default swap rather than cash",
+   "Issued electronically only, with no funding",
+   "Funded only when drawn (standard LC mechanic)",
+   "Pre-funded on the closing date"
+  ],
+  "answer": 3,
+  "answer_text": "Pre-funded on the closing date",
+  "type": "mc",
+  "source_term": "Synthetic Letter of Credit",
+  "source_term_id": "9129",
+  "q_idx": 0,
+  "explanation": "SLC is PRE-FUNDED on the closing date instead of when funds are drawn."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a 'blind bid', what specific information is hidden from the bidder?",
+  "choices": [
+   "Identity of the seller",
+   "Settlement currency",
+   "Trade execution timestamp",
+   "Composition (and individual costs) of the basket"
+  ],
+  "answer": 3,
+  "answer_text": "Composition (and individual costs) of the basket",
+  "type": "mc",
+  "source_term": "Blind Bid",
+  "source_term_id": "9530",
+  "q_idx": 0,
+  "explanation": "Blind bid = bid placed without knowing the COMPOSITION or cost of individual securities in the basket."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What primary benefit does 'Covered Security' designation grant the issuer under NSMIA?",
+  "choices": [
+   "Exempt from state-level registration",
+   "Insured by SIPC up to $500K per investor",
+   "100% asset-backed (collateralized)",
+   "Included in major broad-market indices"
+  ],
+  "answer": 0,
+  "answer_text": "Exempt from state-level registration",
+  "type": "mc",
+  "source_term": "Covered Security",
+  "source_term_id": "9764",
+  "q_idx": 0,
+  "explanation": "Covered securities are exempt from state restrictions/regulations (federal preemption via NSMIA)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In operations, 'fragmentation' specifically refers to what kind of structural splitting?",
+  "choices": [
+   "Splitting product lines into multiple SKUs in the same market",
+   "Dispersing equity across many small investors",
+   "Production via separate suppliers / component manufacturers",
+   "Dispersing trading liquidity across multiple venues"
+  ],
+  "answer": 2,
+  "answer_text": "Production via separate suppliers / component manufacturers",
+  "type": "mc",
+  "source_term": "Fragmentation",
+  "source_term_id": "9991",
+  "q_idx": 0,
+  "explanation": "Fragmentation in operations = producing goods/services via separate suppliers and component manufacturers."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does the 'At the Lowest Possible Price' instruction direct a broker to do?",
+  "choices": [
+   "Broker executes at the day's session low automatically",
+   "Broker fills at the current best bid only (synonym for limit-at-best)",
+   "Broker breaks order into many small TWAP slices",
+   "Broker actively seeks the lowest available price"
+  ],
+  "answer": 3,
+  "answer_text": "Broker actively seeks the lowest available price",
+  "type": "mc",
+  "source_term": "Lowest Possible Price",
+  "source_term_id": "10350",
+  "q_idx": 0,
+  "explanation": "Broker SEEKS the lowest available price for the security, used in illiquid markets."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the structural feature of an MCFO (vs a CMO)?",
+  "choices": [
+   "Single tranche; unsecured commercial paper",
+   "Single tranche; senior secured bond",
+   "Multiple tranches; unsecured general obligation bond",
+   "Multiple tranches; senior secured CMO"
+  ],
+  "answer": 2,
+  "answer_text": "Multiple tranches; unsecured general obligation bond",
+  "type": "mc",
+  "source_term": "Mortgage Cash Flow Obligation",
+  "source_term_id": "10805",
+  "q_idx": 0,
+  "explanation": "MCFO = pass-through bond with multiple tranches but UNSECURED general obligation (vs CMO which is secured)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "After a short sale, the credit balance in the margin account represents what specific cash?",
+  "choices": [
+   "Short sale proceeds (deposited in margin account)",
+   "Realized profit from closed trades",
+   "Long position market value",
+   "Margin loan from broker (deposit)"
+  ],
+  "answer": 0,
+  "answer_text": "Short sale proceeds (deposited in margin account)",
+  "type": "mc",
+  "source_term": "Credit Balance",
+  "source_term_id": "11513",
+  "q_idx": 0,
+  "explanation": "Credit balance = sum of borrowed funds (broker-deposited) following a short sale; secures the short position."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a 'bank wire' actually move?",
+  "choices": [
+   "FedWire same-day money transfer system",
+   "SWIFT international money transfer system",
+   "ACH batch electronic payment system",
+   "Inter-bank message system (does NOT transfer money)"
+  ],
+  "answer": 3,
+  "answer_text": "Inter-bank message system (does NOT transfer money)",
+  "type": "mc",
+  "source_term": "Bank Wire",
+  "source_term_id": "11643",
+  "q_idx": 0,
+  "explanation": "Bank wire = electronic MESSAGE between banks about client actions; does NOT transfer money (that requires separate FedWire/SWIFT/ACH)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the form of share ownership in 'custody-only' trading?",
+  "choices": [
+   "Custodian-bank-held ADR-style instrument",
+   "Tokenized blockchain-recorded asset",
+   "Electronic book-entry (no certificate)",
+   "Physical stock certificate (paper, registered owner)"
+  ],
+  "answer": 3,
+  "answer_text": "Physical stock certificate (paper, registered owner)",
+  "type": "mc",
+  "source_term": "Custody-Only",
+  "source_term_id": "11697",
+  "q_idx": 0,
+  "explanation": "Custody-only = shares are traded in PHYSICAL form, in the registered owner's name; certificates are canceled/issued on each trade."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the typical cause of a 'sellout' as the term is used in finance?",
+  "choices": [
+   "Forced sale due to illness, divorce, bankruptcy, or margin call",
+   "Coordinated short-seller attack",
+   "Natural end of a bull market cycle",
+   "Voluntary profit-taking at market peak"
+  ],
+  "answer": 0,
+  "answer_text": "Forced sale due to illness, divorce, bankruptcy, or margin call",
+  "type": "mc",
+  "source_term": "Sellout",
+  "source_term_id": "11905",
+  "q_idx": 0,
+  "explanation": "Sellout = forced sale to raise funds for near-term obligations (illness, divorce, bankruptcy, margin call)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How often must banks provide descriptive statements to customers using electronic funds transfers?",
+  "choices": [
+   "Quarterly (cost-saving)",
+   "On-demand only (per customer request)",
+   "Annually (year-end summary)",
+   "Monthly (mandatory under Reg E for EFT users)"
+  ],
+  "answer": 3,
+  "answer_text": "Monthly (mandatory under Reg E for EFT users)",
+  "type": "mc",
+  "source_term": "Descriptive Statement",
+  "source_term_id": "12290",
+  "q_idx": 0,
+  "explanation": "Banks MUST provide monthly descriptive statements to EFT-using customers under Reg E (CFPB)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the FORMULA for Debt-Adjusted Cash Flow (DACF)?",
+  "choices": [
+   "CFO + Debt issuance proceeds",
+   "EBITDA − Capex (no debt adjustment)",
+   "CFO − Debt service",
+   "CFO + Financing costs (after tax)"
+  ],
+  "answer": 3,
+  "answer_text": "CFO + Financing costs (after tax)",
+  "type": "mc",
+  "source_term": "Debt-Adjusted Cash Flow",
+  "source_term_id": "12569",
+  "q_idx": 0,
+  "explanation": "DACF = Cash Flow from Operations + Financing Costs (after tax)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a 'Credit Watch' SERVICE do for the consumer?",
+  "choices": [
+   "Bond-rating agency 'watch' designation for a specific bond",
+   "Card-fraud detection algorithm",
+   "Bank internal credit-deterioration monitoring program",
+   "Monitoring an individual's credit report for changes"
+  ],
+  "answer": 3,
+  "answer_text": "Monitoring an individual's credit report for changes",
+  "type": "mc",
+  "source_term": "Credit Watch",
+  "source_term_id": "12764",
+  "q_idx": 0,
+  "explanation": "Credit Watch = monitoring the individual's credit report for any credit-related changes."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does 'monoline' mean in financial services?",
+  "choices": [
+   "A bond issued in a single tranche",
+   "Specializing in ONE financial-services line (credit cards / mortgages / bond insurance)",
+   "A domestically-focused bank without international exposure",
+   "A single-product startup with one CEO/founder"
+  ],
+  "answer": 1,
+  "answer_text": "Specializing in ONE financial-services line (credit cards / mortgages / bond insurance)",
+  "type": "mc",
+  "source_term": "Monoline",
+  "source_term_id": "12928",
+  "q_idx": 0,
+  "explanation": "Monoline = specializing in one definite area of expertise (e.g., credit-card-only, mortgage-only)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In bankruptcy context, what does 'Cash Collateral' specifically refer to?",
+  "choices": [
+   "Cash margin posted to a derivatives counterparty",
+   "Cash held for the benefit of creditors during Chapter 11",
+   "Cash held in escrow for an M&A transaction",
+   "Cash buffer regulators require banks to hold against deposits"
+  ],
+  "answer": 1,
+  "answer_text": "Cash held for the benefit of creditors during Chapter 11",
+  "type": "mc",
+  "source_term": "Cash Collateral",
+  "source_term_id": "13069",
+  "q_idx": 0,
+  "explanation": "Cash collateral in Ch.11 = cash and equivalents held for the benefit of CREDITORS (asset-sale proceeds, etc.)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a dual-purpose fund, holders of Capital Shares are entitled to what specific economic exposure?",
+  "choices": [
+   "Dividend / income distribution exposure",
+   "Equity in the management company",
+   "Voting rights for fund governance",
+   "Capital gains exposure (in a dual-purpose fund)"
+  ],
+  "answer": 3,
+  "answer_text": "Capital gains exposure (in a dual-purpose fund)",
+  "type": "mc",
+  "source_term": "Capital Share",
+  "source_term_id": "13555",
+  "q_idx": 0,
+  "explanation": "Capital shares = capital-gains-only exposure in a dual-purpose fund (income shares get the dividends)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Who typically pays the premium for a Land Lease Option, and to whom?",
+  "choices": [
+   "Both pay equally to maintain the option",
+   "Landlord pays the lessee a premium to extend",
+   "Lessee (renter) pays a premium for the right to extend",
+   "The option is free; no premium changes hands"
+  ],
+  "answer": 2,
+  "answer_text": "Lessee (renter) pays a premium for the right to extend",
+  "type": "mc",
+  "source_term": "Land Lease Option",
+  "source_term_id": "13849",
+  "q_idx": 0,
+  "explanation": "Lessee typically pays a small premium for the option to extend the lease."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What specific action does invoking a Buyout Settlement Clause involve?",
+  "choices": [
+   "Both reject the third-party's offer; case goes to court",
+   "Policyholder REJECTS the insurer's offer and takes cash buyout",
+   "Third-party claimant rejects the offer; arbitration follows",
+   "Insurer rejects policyholder's claim and pays a buyout"
+  ],
+  "answer": 1,
+  "answer_text": "Policyholder REJECTS the insurer's offer and takes cash buyout",
+  "type": "mc",
+  "source_term": "Buyout Settlement Clause",
+  "source_term_id": "13871",
+  "q_idx": 0,
+  "explanation": "The clause allows the POLICYHOLDER to REJECT a settlement offer from the insurer, taking the settlement amount as a buyout."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a reverse mortgage Term Payment Plan, how are payments structured?",
+  "choices": [
+   "Quarterly distributions tied to property value changes",
+   "Fixed monthly payment for a SET PERIOD (then stops)",
+   "Variable monthly payment for life",
+   "Single lump-sum at signing"
+  ],
+  "answer": 1,
+  "answer_text": "Fixed monthly payment for a SET PERIOD (then stops)",
+  "type": "mc",
+  "source_term": "Term Payment Plan",
+  "source_term_id": "14148",
+  "q_idx": 0,
+  "explanation": "Term payment plan: monthly payment for a set PERIOD; after the period ends, payments stop."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When the letter R appears as a SUFFIX on a NASDAQ ticker symbol, what does it indicate about the security?",
+  "choices": [
+   "Rights offering",
+   "REIT (Real Estate Investment Trust)",
+   "Restricted security",
+   "Reverse-split adjustment"
+  ],
+  "answer": 0,
+  "answer_text": "Rights offering",
+  "type": "mc",
+  "source_term": "R",
+  "source_term_id": "14699",
+  "q_idx": 0,
+  "explanation": "Suffix R = rights offering."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the relationship of the Composite Index of Lagging Indicators to broader economic performance?",
+  "choices": [
+   "Lags overall economic performance (CONFIRMING signal)",
+   "Leads overall economic performance by 6-9 months",
+   "Contrarian signal (opposite of actual direction)",
+   "Coincident with current activity (nowcast)"
+  ],
+  "answer": 0,
+  "answer_text": "Lags overall economic performance (CONFIRMING signal)",
+  "type": "mc",
+  "source_term": "Index",
+  "source_term_id": "14960",
+  "q_idx": 0,
+  "explanation": "The Index of Lagging Indicators LAGS economic performance; it CONFIRMS turning points after the fact."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many iTraxx LevX indices exist, and how are they split?",
+  "choices": [
+   "Two (one senior debt, one subordinated debt)",
+   "One single index covering all leveraged loans",
+   "Three (senior, mezzanine, subordinated)",
+   "Five (one per major European country)"
+  ],
+  "answer": 0,
+  "answer_text": "Two (one senior debt, one subordinated debt)",
+  "type": "mc",
+  "source_term": "iTraxx LevX Indexes",
+  "source_term_id": "15061",
+  "q_idx": 0,
+  "explanation": "iTraxx LevX = a PAIR of indexes: one for senior LCDS, one for subordinated LCDS (European leveraged loans)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "On a LINEAR (arithmetic) price scale chart, how does y-axis spacing relate to price?",
+  "choices": [
+   "Equal distance on y-axis = equal $ amount",
+   "Y-axis centered on zero with positive/negative both directions",
+   "Equal distance on x-axis = equal time intervals (always true)",
+   "Equal distance on y-axis = equal % change (logarithmic)"
+  ],
+  "answer": 0,
+  "answer_text": "Equal distance on y-axis = equal $ amount",
+  "type": "mc",
+  "source_term": "Linear",
+  "source_term_id": "15194",
+  "q_idx": 0,
+  "explanation": "Linear price scale: equal distance on y-axis represents equal DOLLAR amounts."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Roughly how long can a U.S. corporation carry forward an NOL under modern tax law (the 'tax umbrella' covering future profits)?",
+  "choices": [
+   "20 years",
+   "1 year",
+   "Indefinite (until losses are fully used)",
+   "3 years"
+  ],
+  "answer": 2,
+  "answer_text": "Indefinite (until losses are fully used)",
+  "type": "mc",
+  "source_term": "Tax Umbrella",
+  "source_term_id": "15225",
+  "q_idx": 0,
+  "explanation": "Post-TCJA, federal NOLs created in 2018+ have INDEFINITE carryforward (used to be 20 years under prior law)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When does 'Pay/Collect' activity occur on futures positions?",
+  "choices": [
+   "Settlement at expiry of the futures contract",
+   "Central counterparty interest on margin",
+   "Daily mark-to-market on futures (variation margin)",
+   "Dealer commission flow (broker pays exchange)"
+  ],
+  "answer": 2,
+  "answer_text": "Daily mark-to-market on futures (variation margin)",
+  "type": "mc",
+  "source_term": "Pay/Collect",
+  "source_term_id": "15345",
+  "q_idx": 0,
+  "explanation": "Pay/Collect = DAILY mark-to-market on futures positions (pay if loss, collect if gain — variation margin)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is a 'Markdown' computed in dealer-bond markets?",
+  "choices": [
+   "SEC-mandated price-improvement amount",
+   "(Inside bid − customer's sale price) for a security",
+   "Discount the dealer offers retail vs institutional clients",
+   "Long-term price decline since IPO"
+  ],
+  "answer": 1,
+  "answer_text": "(Inside bid − customer's sale price) for a security",
+  "type": "mc",
+  "source_term": "Markdown",
+  "source_term_id": "15351",
+  "q_idx": 0,
+  "explanation": "Markdown = (best inside bid) − (price dealer pays customer for the security on a sell)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the structure of the Financial Management Rate of Return (FMRR) formula?",
+  "choices": [
+   "Average of trailing 5-year returns",
+   "Modified IRR using safe rate AND reinvestment rate",
+   "Inflation-adjusted cap rate",
+   "Vanilla IRR with no modification"
+  ],
+  "answer": 1,
+  "answer_text": "Modified IRR using safe rate AND reinvestment rate",
+  "type": "mc",
+  "source_term": "Financial Management Rate of Return",
+  "source_term_id": "15430",
+  "q_idx": 0,
+  "explanation": "FMRR = modified IRR using both a SAFE rate (for negative CFs) AND a REINVESTMENT rate (for positive CFs)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Is a mutual fund share class Reclassification typically a taxable event?",
+  "choices": [
+   "Non-taxable (share class change)",
+   "Triggers cost-basis reset for tax purposes",
+   "Triggers capital-gain distribution to all holders",
+   "Triggers a deemed-sale taxable event for holders"
+  ],
+  "answer": 0,
+  "answer_text": "Non-taxable (share class change)",
+  "type": "mc",
+  "source_term": "Reclassification",
+  "source_term_id": "15693",
+  "q_idx": 0,
+  "explanation": "Reclassifications are typically NON-TAXABLE events but may affect fees, minimums, or distribution treatment going forward."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In which market type does the term 'Restricted Market' specifically apply?",
+  "choices": [
+   "Stock market with restricted trading hours",
+   "Commodities market with daily price-limit circuit breakers",
+   "Forex market with non-free-floating exchange rate",
+   "Bond market restricted to qualified institutional buyers only"
+  ],
+  "answer": 2,
+  "answer_text": "Forex market with non-free-floating exchange rate",
+  "type": "mc",
+  "source_term": "Restricted Market",
+  "source_term_id": "15728",
+  "q_idx": 0,
+  "explanation": "Restricted Market = forex market where the local currency does not allow free floating (peg, bands, capital controls)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a 'Closed-Market Transaction' involve?",
+  "choices": [
+   "Insider buying/selling restricted securities from company treasury",
+   "After-hours regular trade with closing-print pricing",
+   "Dark-pool transaction with hidden price/volume",
+   "Off-exchange block trade during a halt"
+  ],
+  "answer": 0,
+  "answer_text": "Insider buying/selling restricted securities from company treasury",
+  "type": "mc",
+  "source_term": "Closed-Market Transaction",
+  "source_term_id": "15952",
+  "q_idx": 0,
+  "explanation": "Closed-Market Transaction = order by company INSIDER to buy/sell restricted securities from within the company's OWN treasury."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does the 'Modified' Hikkake add to the basic Hikkake pattern?",
+  "choices": [
+   "Basic Hikkake + context bar (smaller range near prior high/low)",
+   "Basic Hikkake but inverted (context-after-trigger)",
+   "Basic Hikkake + volume confirmation requirement",
+   "Basic Hikkake + moving-average filter"
+  ],
+  "answer": 0,
+  "answer_text": "Basic Hikkake + context bar (smaller range near prior high/low)",
+  "type": "mc",
+  "source_term": "Modified Hikkake Pattern",
+  "source_term_id": "16066",
+  "q_idx": 0,
+  "explanation": "Modified Hikkake adds a CONTEXT BAR (smaller-range candle near prior high/low) before the inside bar and trigger."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What investment-vehicle type is a 'Defined Portfolio'?",
+  "choices": [
+   "Open-end mutual fund (issues new shares as inflows arrive)",
+   "Investment trust (closed-ended, not actively managed)",
+   "Separately managed account (custom for each investor)",
+   "Hedge fund (active alpha-seeking)"
+  ],
+  "answer": 1,
+  "answer_text": "Investment trust (closed-ended, not actively managed)",
+  "type": "mc",
+  "source_term": "Defined Portfolio",
+  "source_term_id": "16224",
+  "q_idx": 0,
+  "explanation": "Defined portfolio = an INVESTMENT TRUST (closed-ended, not actively managed) with predefined holdings."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the role of 'Timeliness' in the Value Line research framework?",
+  "choices": [
+   "Value Line's MOST IMPORTANT report component (short-term price prediction)",
+   "An average of safety and value scores",
+   "A measure of report recency (how recent the analyst update is)",
+   "The validity horizon of the rating (longer horizon = higher Timeliness)"
+  ],
+  "answer": 0,
+  "answer_text": "Value Line's MOST IMPORTANT report component (short-term price prediction)",
+  "type": "mc",
+  "source_term": "Timeliness",
+  "source_term_id": "16362",
+  "q_idx": 0,
+  "explanation": "Timeliness is THE MOST IMPORTANT component of a Value Line report — predicting short-term price performance."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a Calamity Call provision specifically do in a CMO?",
+  "choices": [
+   "Investor option to demand redemption if defaults exceed threshold",
+   "Federal government's authority to seize CMO assets in crisis",
+   "Replaces losses in CMO cashflow (from defaults / prepayments)",
+   "Allows borrower to call the CMO early due to personal calamity"
+  ],
+  "answer": 2,
+  "answer_text": "Replaces losses in CMO cashflow (from defaults / prepayments)",
+  "type": "mc",
+  "source_term": "Calamity Call",
+  "source_term_id": "16440",
+  "q_idx": 0,
+  "explanation": "Calamity Call replaces losses in CMO cashflow caused by defaults or early prepayments (often in second-lien MCMOs)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Rebate options can come in which two basic forms?",
+  "choices": [
+   "Only flat-rate (always automatic deduction)",
+   "Flat-rate (auto deduction) or conditional (requires steps)",
+   "Both forms combined into one mandatory rebate type",
+   "Only conditional (always requires mail-in)"
+  ],
+  "answer": 1,
+  "answer_text": "Flat-rate (auto deduction) or conditional (requires steps)",
+  "type": "mc",
+  "source_term": "Rebate Option",
+  "source_term_id": "16454",
+  "q_idx": 0,
+  "explanation": "Rebates can be FLAT-RATE (automatically subtracted from purchase price) or CONDITIONAL (only valid under certain conditions)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In what historical context was the AMDA contract used?",
+  "choices": [
+   "1980s-90s S&L crisis (FDIC contract with private contractors)",
+   "Modern ongoing standard contract (universal use)",
+   "2008 financial crisis (bank rescue program)",
+   "1986 tax reform (REIT structure agreement)"
+  ],
+  "answer": 0,
+  "answer_text": "1980s-90s S&L crisis (FDIC contract with private contractors)",
+  "type": "mc",
+  "source_term": "Asset Management and Disposition Agreement",
+  "source_term_id": "16554",
+  "q_idx": 0,
+  "explanation": "AMDA = contract between FDIC and independent contractors during the 1980s-90s S&L crisis."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the PHLX Semiconductor (SOX) index weighted?",
+  "choices": [
+   "Revenue-weighted (company revenue determines weight)",
+   "Modified market-capitalization weighted (concentration-capped)",
+   "Price-weighted (share price determines weight)",
+   "Equal-weighted (1/n per company)"
+  ],
+  "answer": 1,
+  "answer_text": "Modified market-capitalization weighted (concentration-capped)",
+  "type": "mc",
+  "source_term": "PHLX",
+  "source_term_id": "16701",
+  "q_idx": 0,
+  "explanation": "SOX is a MODIFIED market-cap-weighted index (concentration-capped to prevent any single chipmaker from dominating)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does a 'performance-based' index add over a price-only index?",
+  "choices": [
+   "Rebalances based on trailing performance",
+   "Adds dividends + capital gains + cash distributions (total return)",
+   "Excludes splits and rights offerings",
+   "Weights stocks by performance (Sharpe ratio / alpha)"
+  ],
+  "answer": 1,
+  "answer_text": "Adds dividends + capital gains + cash distributions (total return)",
+  "type": "mc",
+  "source_term": "Performance-Based Index",
+  "source_term_id": "17044",
+  "q_idx": 0,
+  "explanation": "Performance-based index = total return index: adds dividends, capital gains, and cash distributions to net stock price."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the legal classification of a Capital Note?",
+  "choices": [
+   "Municipal tax-exempt debt",
+   "Equity-linked convertible note",
+   "Unsecured short-term debt (junior to secured notes)",
+   "Senior secured short-term debt"
+  ],
+  "answer": 2,
+  "answer_text": "Unsecured short-term debt (junior to secured notes)",
+  "type": "mc",
+  "source_term": "Capital Note",
+  "source_term_id": "17124",
+  "q_idx": 0,
+  "explanation": "Capital note = UNSECURED short-term debt to cover liabilities; junior to secured notes; higher interest rate."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is a 'Pooled Income Fund' specifically?",
+  "choices": [
+   "Private equity vehicle pooling LP commitments",
+   "Mutual fund pooling across investor accounts",
+   "Pension structure pooling across employer plans",
+   "Charitable trust (income to donors/beneficiaries, principal eventually to charity)"
+  ],
+  "answer": 3,
+  "answer_text": "Charitable trust (income to donors/beneficiaries, principal eventually to charity)",
+  "type": "mc",
+  "source_term": "Pooled",
+  "source_term_id": "17126",
+  "q_idx": 0,
+  "explanation": "Pooled income fund = a type of CHARITABLE TRUST (income distributed to participants/beneficiaries; principal eventually to a designated charity)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is a 'Mirror Fund' in the insurance context?",
+  "choices": [
+   "Variable life insurance investment option (replicates a reference mutual fund)",
+   "Hedge fund pair of long-short positions",
+   "Offshore equivalent of a U.S. mutual fund",
+   "ETF that holds the same securities as its reference mutual fund"
+  ],
+  "answer": 0,
+  "answer_text": "Variable life insurance investment option (replicates a reference mutual fund)",
+  "type": "mc",
+  "source_term": "Mirror Fund",
+  "source_term_id": "17346",
+  "q_idx": 0,
+  "explanation": "Mirror fund = a fund created by an insurance provider to replicate the performance of a high-quality mutual fund, offered as variable life insurance investment options."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a futures contract, what does a 'Differential' specifically adjust?",
+  "choices": [
+   "Adjustment for grade/quality of the deliverable underlying",
+   "Daily settlement-price difference (variation margin computation)",
+   "Bid-ask spread in the futures contract",
+   "Front-month vs back-month contract spread"
+  ],
+  "answer": 0,
+  "answer_text": "Adjustment for grade/quality of the deliverable underlying",
+  "type": "mc",
+  "source_term": "Differential",
+  "source_term_id": "17533",
+  "q_idx": 0,
+  "explanation": "Differential = adjustment to the grade or value of the underlying asset specified as deliverable in a futures contract."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What are 'Authorization Codes' in corporate finance?",
+  "choices": [
+   "Alphanumeric passwords (tiered by transaction threshold)",
+   "Real-time risk scores from the payment processor",
+   "SEC-mandated identifiers on insider trading filings",
+   "Bank encryption keys for SWIFT message authentication"
+  ],
+  "answer": 0,
+  "answer_text": "Alphanumeric passwords (tiered by transaction threshold)",
+  "type": "mc",
+  "source_term": "Authorization Code",
+  "source_term_id": "17622",
+  "q_idx": 0,
+  "explanation": "Authorization codes = alphanumeric passwords authorizing transactions; in corporate setting, tiered by transaction thresholds."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What are 'Friends and Family Shares' in a new company's stock offering?",
+  "choices": [
+   "Pre-IPO allocations to founders' associates (often discounted)",
+   "A specific class of corporate share with extra voting rights",
+   "Estate-planning gift-tax-discounted share class",
+   "Co-ownership shares held by multiple family members"
+  ],
+  "answer": 0,
+  "answer_text": "Pre-IPO allocations to founders' associates (often discounted)",
+  "type": "mc",
+  "source_term": "Family Shares",
+  "source_term_id": "17847",
+  "q_idx": 0,
+  "explanation": "Family/Friends-and-family shares = pre-IPO allocations to founders' associates, before public offering, often priced below IPO."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What was 'AMLF'?",
+  "choices": [
+   "Current ongoing money market fund product",
+   "2008-2009 Fed liquidity facility",
+   "SEC regulatory framework for ABCP holdings",
+   "Treasury Department permanent program"
+  ],
+  "answer": 1,
+  "answer_text": "2008-2009 Fed liquidity facility",
+  "type": "mc",
+  "source_term": "Asset-Backed Commercial Paper Money Market Fund",
+  "source_term_id": "17997",
+  "q_idx": 0,
+  "explanation": "AMLF (Asset-Backed CP Money Market Fund Liquidity Facility) = temporary 2008-2009 Fed liquidity program; now wound down."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In international economics, the Financial Account is a sub-component of which broader statistical framework?",
+  "choices": [
+   "Component of the national fiscal budget",
+   "Component of a country's balance of payments",
+   "Component of the central bank's monetary policy framework",
+   "Component of the IMF Article IV consultation report"
+  ],
+  "answer": 1,
+  "answer_text": "Component of a country's balance of payments",
+  "type": "mc",
+  "source_term": "Financial Account",
+  "source_term_id": "1552",
+  "q_idx": 0,
+  "explanation": "Financial account = component of a country's balance of payments (covering claims/liabilities to nonresidents in financial assets)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "GAPP is also known by what alternative name?",
+  "choices": [
+   "FATF Recommendations (anti-money-laundering)",
+   "OECD Guidelines (corporate governance)",
+   "Santiago Principles (sovereign wealth funds)",
+   "Basel Principles (banking)"
+  ],
+  "answer": 2,
+  "answer_text": "Santiago Principles (sovereign wealth funds)",
+  "type": "mc",
+  "source_term": "Generally Accepted Principles And Practices",
+  "source_term_id": "1840",
+  "q_idx": 0,
+  "explanation": "GAPP is also known as the Santiago Principles, governing the operations of sovereign wealth funds."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In which jurisdictions is the Guarantee Company structure most commonly found?",
+  "choices": [
+   "England, Ireland, Scotland, and Wales (UK and Ireland)",
+   "United States",
+   "Germany and Austria",
+   "Australia and New Zealand"
+  ],
+  "answer": 0,
+  "answer_text": "England, Ireland, Scotland, and Wales (UK and Ireland)",
+  "type": "mc",
+  "source_term": "Guarantee Company",
+  "source_term_id": "2051",
+  "q_idx": 0,
+  "explanation": "Guarantee companies are most commonly found in England, Ireland, Scotland, and Wales."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In a Hub and Spoke investment structure, what is the flow direction?",
+  "choices": [
+   "Hub (issuer) sells to multiple Spoke distributors",
+   "Hub (regulator) supervises multiple Spoke institutions",
+   "Hub (broker-dealer) trades with multiple Spoke counterparties",
+   "Spokes (feeders) invest into a Hub (master fund)"
+  ],
+  "answer": 3,
+  "answer_text": "Spokes (feeders) invest into a Hub (master fund)",
+  "type": "mc",
+  "source_term": "Hub and Spoke Structure",
+  "source_term_id": "2335",
+  "q_idx": 0,
+  "explanation": "Spokes (feeders / sub-funds) invest INTO the Hub (master fund); investment decisions made at hub."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What distinguishes a look-alike contract from the physically-settled futures it mirrors?",
+  "choices": [
+   "Quarterly settlement",
+   "Exchange-cleared settlement only",
+   "Physical settlement",
+   "Cash settlement"
+  ],
+  "answer": 3,
+  "answer_text": "Cash settlement",
+  "type": "mc",
+  "source_term": "Look-Alike Contracts",
+  "source_term_id": "3129",
+  "q_idx": 0,
+  "explanation": "Look-alike contracts are CASH-SETTLED, while the mirrored exchange futures are physically settled."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Cooperation Clauses are typically found in what type of contract?",
+  "choices": [
+   "Securities issuance prospectus",
+   "Insurance contract",
+   "Loan covenant",
+   "Trade-association membership agreement"
+  ],
+  "answer": 1,
+  "answer_text": "Insurance contract",
+  "type": "mc",
+  "source_term": "Cooperation Clause",
+  "source_term_id": "6700",
+  "q_idx": 0,
+  "explanation": "Cooperation clauses are passages in INSURANCE contracts requiring the policyholder to work with the insurer if a claim occurs."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "According to the Monday Effect theory, Monday stock returns are predicted to:",
+  "choices": [
+   "Mirror previous Friday's direction",
+   "Move in proportion to the weekly mean return",
+   "Be flat regardless of previous Friday",
+   "Move opposite to previous Friday's direction"
+  ],
+  "answer": 0,
+  "answer_text": "Mirror previous Friday's direction",
+  "type": "mc",
+  "source_term": "Monday Effect",
+  "source_term_id": "8353",
+  "q_idx": 0,
+  "explanation": "Monday effect theory: Monday returns FOLLOW (mirror) those of the previous Friday."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Capital Decay specifically refers to what type of financial loss?",
+  "choices": [
+   "Amortization of intangible assets over time",
+   "Revenue lost due to obsolete technology / outdated business practices",
+   "Depreciation expense recorded on the income statement",
+   "Cost-of-capital risk adjustment in DCF"
+  ],
+  "answer": 1,
+  "answer_text": "Revenue lost due to obsolete technology / outdated business practices",
+  "type": "mc",
+  "source_term": "Capital Decay",
+  "source_term_id": "9274",
+  "q_idx": 0,
+  "explanation": "Capital decay = revenue LOST by a company due to obsolete technology or outdated business practices (not depreciation, not amortization, not WACC adjustment)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An asset has reached 'Full Value' under what specific condition?",
+  "choices": [
+   "Market price equals book value",
+   "Market price is below historical lowest price",
+   "Market price exceeds intrinsic value by 20% or more",
+   "Intrinsic value equals market price"
+  ],
+  "answer": 3,
+  "answer_text": "Intrinsic value equals market price",
+  "type": "mc",
+  "source_term": "Full Value",
+  "source_term_id": "13503",
+  "q_idx": 0,
+  "explanation": "Full value = intrinsic value EQUALS market price (asset is neither over- nor under-valued)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Absolute Performance Standard sets what specific theoretical benchmark?",
+  "choices": [
+   "Six-sigma quality (3.4 defects per million)",
+   "Below industry-average defect rate",
+   "Zero defects, zero errors, zero losses",
+   "1 defect per 1,000 units"
+  ],
+  "answer": 2,
+  "answer_text": "Zero defects, zero errors, zero losses",
+  "type": "mc",
+  "source_term": "Absolute Performance Standard",
+  "source_term_id": "16170",
+  "q_idx": 0,
+  "explanation": "Absolute Performance Standard = zero defects, zero errors, zero losses (theoretical, unachievable in reality)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Bond Buyer trade publication serves which specific bond market?",
+  "choices": [
+   "Municipal bond industry",
+   "Corporate bond industry",
+   "Sovereign emerging-market bond industry",
+   "Treasury bond industry"
+  ],
+  "answer": 0,
+  "answer_text": "Municipal bond industry",
+  "type": "mc",
+  "source_term": "Bond Buyer",
+  "source_term_id": "17380",
+  "q_idx": 0,
+  "explanation": "The Bond Buyer is a trade publication for the MUNICIPAL bond industry."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the current status of the Broad Form Property Damage Endorsement?",
+  "choices": [
+   "Mandatory on all commercial policies",
+   "Obsolete (no longer used in modern policies)",
+   "Required only for catastrophe-prone areas",
+   "An optional add-on at premium discount"
+  ],
+  "answer": 1,
+  "answer_text": "Obsolete (no longer used in modern policies)",
+  "type": "mc",
+  "source_term": "Broad Form Property Damage Endorsement",
+  "source_term_id": "17568",
+  "q_idx": 0,
+  "explanation": "BFPD Endorsement is OBSOLETE; the areas it covered are now natively in modern policies."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Which U.S. federal agency administers the Anti-Diversion Clause regulation?",
+  "choices": [
+   "Federal Trade Commission (FTC)",
+   "Securities and Exchange Commission (SEC)",
+   "Internal Revenue Service (IRS)",
+   "Bureau of Industry and Security (Department of Commerce)"
+  ],
+  "answer": 3,
+  "answer_text": "Bureau of Industry and Security (Department of Commerce)",
+  "type": "mc",
+  "source_term": "Anti-Diversion Clause",
+  "source_term_id": "18002",
+  "q_idx": 0,
+  "explanation": "Anti-Diversion Clause is administered by the Bureau of Industry and Security (BIS) under the Department of Commerce."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Effective Net Worth is computed as equity adjusted by what specific addition?",
+  "choices": [
+   "Equity × P/B ratio (market value)",
+   "Equity + subordinated debt",
+   "Equity − intangibles − goodwill",
+   "Equity adjusted for inflation"
+  ],
+  "answer": 1,
+  "answer_text": "Equity + subordinated debt",
+  "type": "mc",
+  "source_term": "Effective Net Worth",
+  "source_term_id": "18038",
+  "q_idx": 0,
+  "explanation": "Effective net worth = shareholders' equity + subordinated debt (sub-debt functions like equity from senior creditor perspective)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the Adjusted Premium Method's formula for Cash Surrender Value?",
+  "choices": [
+   "Risk-adjusted premium × claim probability",
+   "Annualized premium × policy duration",
+   "Total premiums paid - expenses on the contract",
+   "PV(future benefits) - PV(future premiums)"
+  ],
+  "answer": 2,
+  "answer_text": "Total premiums paid - expenses on the contract",
+  "type": "mc",
+  "source_term": "Adjusted Premium Method",
+  "source_term_id": "18625",
+  "q_idx": 0,
+  "explanation": "Adjusted Premium Method: CSV ≈ total premiums paid LESS the expenses on the contract."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Aggregate Risk specifically captures FX counterparty exposure deriving from what scope?",
+  "choices": [
+   "Single geographic region across all clients",
+   "Single product line across all clients",
+   "Single counterparty (regardless of which client originated it)",
+   "Single client"
+  ],
+  "answer": 3,
+  "answer_text": "Single client",
+  "type": "mc",
+  "source_term": "Aggregate Risk",
+  "source_term_id": "18690",
+  "q_idx": 0,
+  "explanation": "Aggregate risk = total institution's FX counterparty risk deriving from a SINGLE CLIENT."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does the Open Position Ratio (forex) measure?",
+  "choices": [
+   "Ratio of platform capital to open exposure",
+   "Proportion of open currency positions on a forex platform",
+   "Ratio of executed trades to canceled orders",
+   "Ratio of long to short positions in a single currency"
+  ],
+  "answer": 1,
+  "answer_text": "Proportion of open currency positions on a forex platform",
+  "type": "mc",
+  "source_term": "Open Position Ratio",
+  "source_term_id": "18693",
+  "q_idx": 0,
+  "explanation": "OPR = proportion of open currency positions held on a forex trading platform (sentiment/engagement indicator)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "South Wales Business School is part of which specific institution?",
+  "choices": [
+   "University of Western Sydney",
+   "University of Sydney",
+   "University of Wales (UK)",
+   "University of New South Wales (UNSW)"
+  ],
+  "answer": 3,
+  "answer_text": "University of New South Wales (UNSW)",
+  "type": "mc",
+  "source_term": "South Wales Business",
+  "source_term_id": "18795",
+  "q_idx": 0,
+  "explanation": "South Wales Business = University of New South Wales (UNSW) Business School in Sydney, Australia (founded 1955)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An Accommodation Endorser is typically what kind of entity?",
+  "choices": [
+   "Trade-association certifying member creditworthiness",
+   "Corporate entity (e.g., parent backing subsidiary)",
+   "Federal regulator endorsing a credit",
+   "Individual co-signer (personal guarantor)"
+  ],
+  "answer": 1,
+  "answer_text": "Corporate entity (e.g., parent backing subsidiary)",
+  "type": "mc",
+  "source_term": "Accommodation Endorser",
+  "source_term_id": "18844",
+  "q_idx": 0,
+  "explanation": "Accommodation endorser = a CORPORATE entity (e.g., parent backing subsidiary's credit liability)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How many distinct types of credit insurance are available to credit-card customers?",
+  "choices": [
+   "Four (disability, life, unemployment, accident)",
+   "Two (disability and life only)",
+   "One (life insurance only)",
+   "Three (disability, life, unemployment)"
+  ],
+  "answer": 3,
+  "answer_text": "Three (disability, life, unemployment)",
+  "type": "mc",
+  "source_term": "Credit Insurance",
+  "source_term_id": "18845",
+  "q_idx": 0,
+  "explanation": "There are 3 kinds of credit insurance: disability, life, and unemployment."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "When and by whom was the Financial Stability Plan published?",
+  "choices": [
+   "2009 (Obama administration / Treasury Department)",
+   "2020 (COVID-19 response)",
+   "2007 (Bush administration / Treasury)",
+   "2010 (alongside Dodd-Frank)"
+  ],
+  "answer": 0,
+  "answer_text": "2009 (Obama administration / Treasury Department)",
+  "type": "mc",
+  "source_term": "Financial Stability Plan",
+  "source_term_id": "19249",
+  "q_idx": 0,
+  "explanation": "FSP = a memo published by the U.S. Treasury under the Obama administration in EARLY 2009 (implementing the 2008 EESA)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "'Future Income Taxes' on a balance sheet represent what specific item?",
+  "choices": [
+   "Deferred income taxes (timing differences between book and tax)",
+   "PV of future expected earnings",
+   "Projected future revenue from forecasts",
+   "Unbilled receivables from customers"
+  ],
+  "answer": 0,
+  "answer_text": "Deferred income taxes (timing differences between book and tax)",
+  "type": "mc",
+  "source_term": "Future Income",
+  "source_term_id": "19590",
+  "q_idx": 0,
+  "explanation": "Future income taxes = deferred income taxes arising from timing differences between net income on tax return vs financial statements."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "For tax purposes, 'Amount Recognized' specifically refers to what?",
+  "choices": [
+   "Tax credit applied to the tax return",
+   "Audit-assessed tax liability after IRS examination",
+   "Total income earned regardless of reporting requirement",
+   "Taxable income / deductible loss (must be reported)"
+  ],
+  "answer": 3,
+  "answer_text": "Taxable income / deductible loss (must be reported)",
+  "type": "mc",
+  "source_term": "Amount Recognized",
+  "source_term_id": "19591",
+  "q_idx": 0,
+  "explanation": "Amount recognized = taxable income (or deductible loss) that must be reported on the tax return."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the formula for the Derivative Oscillator?",
+  "choices": [
+   "First derivative of price (rate of change)",
+   "Single-smoothed RSI without SMA subtraction",
+   "Double-smoothed RSI − SMA of the double-smoothed RSI",
+   "Standard RSI − 50 (zero-centered)"
+  ],
+  "answer": 2,
+  "answer_text": "Double-smoothed RSI − SMA of the double-smoothed RSI",
+  "type": "mc",
+  "source_term": "Derivative Oscillator",
+  "source_term_id": "19605",
+  "q_idx": 0,
+  "explanation": "Derivative oscillator = difference between a DOUBLE-SMOOTHED RSI and an SMA of that double-smoothed RSI."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does Attribute Bias describe?",
+  "choices": [
+   "Regulator-imposed attribute weighting in regulated indices",
+   "Recency bias in human stock selection",
+   "Securities selected by one predictive model share similar fundamentals",
+   "Survivorship bias in backtesting (delisted stocks excluded)"
+  ],
+  "answer": 2,
+  "answer_text": "Securities selected by one predictive model share similar fundamentals",
+  "type": "mc",
+  "source_term": "Attribute Bias",
+  "source_term_id": "19703",
+  "q_idx": 0,
+  "explanation": "Attribute bias = securities chosen by one predictive model tend to have SIMILAR FUNDAMENTAL CHARACTERISTICS (unintended factor exposure)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is 'Nominee Interest' in tax terminology?",
+  "choices": [
+   "Interest rate used by nomination committees for pension calculations",
+   "Interest paid by a corporation to its board nominees",
+   "Income legally received by one person but reported to IRS as belonging to another",
+   "Interest paid by a trust account to its named beneficiaries"
+  ],
+  "answer": 2,
+  "answer_text": "Income legally received by one person but reported to IRS as belonging to another",
+  "type": "mc",
+  "source_term": "Nominee Interest",
+  "source_term_id": "19767",
+  "q_idx": 0,
+  "explanation": "Nominee interest = income on an investment in one person's name that actually belongs to another person."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Adjusted Gross Margin (AGM) extends standard gross margin by including which additional cost?",
+  "choices": [
+   "Gross margin minus operating expenses",
+   "Gross margin minus inventory carrying costs",
+   "Gross margin minus interest costs",
+   "Gross margin minus tax expense"
+  ],
+  "answer": 1,
+  "answer_text": "Gross margin minus inventory carrying costs",
+  "type": "mc",
+  "source_term": "Adjusted Gross Margin",
+  "source_term_id": "20031",
+  "q_idx": 0,
+  "explanation": "AGM goes one step beyond gross margin by including INVENTORY CARRYING COSTS in the calculation."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A 'Business Guarantee' is a commitment by a business to honor what specific obligation?",
+  "choices": [
+   "Director-and-officer liability coverage",
+   "Trade-credit insurance contract",
+   "Equipment financing loan",
+   "Company-card debt (similar to personal guarantee on individual cards)"
+  ],
+  "answer": 3,
+  "answer_text": "Company-card debt (similar to personal guarantee on individual cards)",
+  "type": "mc",
+  "source_term": "Business Guarantee",
+  "source_term_id": "20123",
+  "q_idx": 0,
+  "explanation": "Business guarantee = commitment to honor DEBTS INCURRED UNDER ITS COMPANY CREDIT CARDS (similar to personal guarantees on individual cards)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Adequate Notice must be delivered in what specific medium?",
+  "choices": [
+   "Electronic-only (e-form only)",
+   "Posted publicly (newspaper notice acceptable)",
+   "Verbal (acceptable in many contexts)",
+   "Written (must be made in writing)"
+  ],
+  "answer": 3,
+  "answer_text": "Written (must be made in writing)",
+  "type": "mc",
+  "source_term": "Adequate Notice",
+  "source_term_id": "20150",
+  "q_idx": 0,
+  "explanation": "Adequate notices must be made in WRITING (and must adhere to specific TILA / Reg Z requirements)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Certificates of Indebtedness preceded which modern U.S. government debt instrument?",
+  "choices": [
+   "Banker's Acceptances",
+   "Treasury Bills (T-Bills)",
+   "Commercial Paper",
+   "Federal Reserve Notes (currency)"
+  ],
+  "answer": 1,
+  "answer_text": "Treasury Bills (T-Bills)",
+  "type": "mc",
+  "source_term": "Certificate of Indebtedness",
+  "source_term_id": "20376",
+  "q_idx": 0,
+  "explanation": "Certificates of Indebtedness preceded T-Bills as U.S. government IOUs."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What characterizes a 'One-To-Many' market structure?",
+  "choices": [
+   "Sole broker representing many client accounts",
+   "Many market makers competing for the same order flow (modern market)",
+   "Sole CCP clearing trades from many participants",
+   "Sole market maker trading against all buyers and sellers"
+  ],
+  "answer": 3,
+  "answer_text": "Sole market maker trading against all buyers and sellers",
+  "type": "mc",
+  "source_term": "One-To-Many",
+  "source_term_id": "20487",
+  "q_idx": 0,
+  "explanation": "One-to-many = sole market maker / operator trades against all buyers and sellers in a security (rare in contemporary markets)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is a 'Phantom Gain'?",
+  "choices": [
+   "Investor's gain destined to reverse due to bubble dynamics",
+   "Investor owes capital gains tax on unrealized appreciation",
+   "Investor owes capital gains tax even though overall portfolio DECLINED in value",
+   "Investor's nominal gain offset by inflation losses"
+  ],
+  "answer": 2,
+  "answer_text": "Investor owes capital gains tax even though overall portfolio DECLINED in value",
+  "type": "mc",
+  "source_term": "Phantom Gain",
+  "source_term_id": "20724",
+  "q_idx": 0,
+  "explanation": "Phantom gain = investor owes capital gains taxes even though the investor's overall investment portfolio has DECLINED in value."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "Cumulative Exposure in insurance specifically describes what damage pattern?",
+  "choices": [
+   "Damages sustained over time (e.g., pollution, asbestos, occupational illness)",
+   "Daily aggregated trading losses",
+   "Lifetime claims paid by an insurer",
+   "Single catastrophic event (e.g., hurricane, earthquake)"
+  ],
+  "answer": 0,
+  "answer_text": "Damages sustained over time (e.g., pollution, asbestos, occupational illness)",
+  "type": "mc",
+  "source_term": "Cumulative Exposure",
+  "source_term_id": "20911",
+  "q_idx": 0,
+  "explanation": "Cumulative exposure = damages sustained OVER TIME (gradual exposure to pollutants or sources of illness)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Precision Score has been rebranded as what current product?",
+  "choices": [
+   "FICO Score 8 (current standard FICO version)",
+   "NextGen Risk Score (FICO rebranding)",
+   "VantageScore (joint bureau product)",
+   "Bureau-Resolution Score (Equifax-specific product)"
+  ],
+  "answer": 1,
+  "answer_text": "NextGen Risk Score (FICO rebranding)",
+  "type": "mc",
+  "source_term": "Precision Score",
+  "source_term_id": "20919",
+  "q_idx": 0,
+  "explanation": "Precision Score (FICO-developed) has been rebranded as the NextGen Risk Score."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A 'Permitted Currency' is characterized by what specific property?",
+  "choices": [
+   "Freely exchangeable; often minor forex currencies of smaller economies",
+   "Currencies under IMF capital control regimes",
+   "Currencies of trade-pact member countries only",
+   "Major reserve currencies only (USD, EUR, JPY, GBP, CHF)"
+  ],
+  "answer": 0,
+  "answer_text": "Freely exchangeable; often minor forex currencies of smaller economies",
+  "type": "mc",
+  "source_term": "Permitted Currency",
+  "source_term_id": "20963",
+  "q_idx": 0,
+  "explanation": "Permitted currencies are freely exchangeable; often refer to minor forex currencies of smaller economies."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the candlestick structure of a Thrusting Pattern?",
+  "choices": [
+   "Long black candle + white candle closing near midpoint of black body",
+   "Two doji candles in succession",
+   "Two consecutive black candles of similar length",
+   "A gap-up followed by two identical white candles"
+  ],
+  "answer": 0,
+  "answer_text": "Long black candle + white candle closing near midpoint of black body",
+  "type": "mc",
+  "source_term": "Thrusting Pattern",
+  "source_term_id": "20970",
+  "q_idx": 0,
+  "explanation": "Thrusting pattern = long BLACK candle followed by a WHITE candle that closes near the MIDPOINT of the black candle's real body."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What does an 'Overdraft Cap' specifically limit for banks?",
+  "choices": [
+   "Maximum daily Federal Reserve account overdraft for Fedwire payments",
+   "Maximum consumer-deposit-account overdraft (Reg DD limit)",
+   "Maximum overdraft fees per month (CARD Act cap)",
+   "Maximum negative balance before FDIC account closure"
+  ],
+  "answer": 0,
+  "answer_text": "Maximum daily Federal Reserve account overdraft for Fedwire payments",
+  "type": "mc",
+  "source_term": "Overdraft Cap",
+  "source_term_id": "21226",
+  "q_idx": 0,
+  "explanation": "Overdraft cap = max dollar limit a bank may overdraw its FEDERAL RESERVE account each day to make Fedwire payments."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "The Norton High/Low Indicator is a combination of which two underlying indicators?",
+  "choices": [
+   "RSI + MACD combination",
+   "ADX + Williams %R combination",
+   "Moving Average + Bollinger Bands combination",
+   "Demand Index + Stochastics combination"
+  ],
+  "answer": 3,
+  "answer_text": "Demand Index + Stochastics combination",
+  "type": "mc",
+  "source_term": "Norton High/Low Indicator",
+  "source_term_id": "21576",
+  "q_idx": 0,
+  "explanation": "Norton High/Low = combination of the Demand Index and Stochastics."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What specific question does an 'Opt-Out Vote' resolve?",
+  "choices": [
+   "Shareholder vote to ratify auditor selection",
+   "Shareholder vote to approve dividend distributions",
+   "Shareholder vote to elect new board members",
+   "Shareholder vote to waive certain takeover laws/regulations"
+  ],
+  "answer": 3,
+  "answer_text": "Shareholder vote to waive certain takeover laws/regulations",
+  "type": "mc",
+  "source_term": "Opt-Out Vote",
+  "source_term_id": "21730",
+  "q_idx": 0,
+  "explanation": "Opt-out vote = shareholder vote to determine if certain laws and regulations regarding corporate takeovers are to be WAIVED during a particular corporate action."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How is the Specialist Short Sale Ratio computed?",
+  "choices": [
+   "NYSE shorts / NASDAQ shorts (cross-exchange)",
+   "Short interest / Float (the standard short ratio)",
+   "Retail trader shorts / Total shorts",
+   "NYSE specialists' short sales / Total NYSE short sales"
+  ],
+  "answer": 3,
+  "answer_text": "NYSE specialists' short sales / Total NYSE short sales",
+  "type": "mc",
+  "source_term": "Specialist Short Sale Ratio",
+  "source_term_id": "21884",
+  "q_idx": 0,
+  "explanation": "Specialist short sale ratio = specialists' short selling on NYSE / short sales of the entire NYSE."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An ECO Clause is found in what specific contract type?",
+  "choices": [
+   "Banking syndicate agreement (lead bank's extra duties)",
+   "Securities issuance prospectus (issuer's extra disclosures)",
+   "Primary insurance policy (insurer's duty to defend)",
+   "Reinsurance contract (reinsurer pays for extra obligations on ceding insurer)"
+  ],
+  "answer": 3,
+  "answer_text": "Reinsurance contract (reinsurer pays for extra obligations on ceding insurer)",
+  "type": "mc",
+  "source_term": "Extra-Contractual Obligations Clause",
+  "source_term_id": "22521",
+  "q_idx": 0,
+  "explanation": "ECO clause = clause in a REINSURANCE contract requiring the reinsurer to pay for expenses imposed upon the ceding insurer by regulatory/judicial/governmental orgs."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "How long does the Associate In Management (AIM) designation typically take to complete?",
+  "choices": [
+   "3-6 months (administered by AICPA)",
+   "9-15 months (administered by The Institutes)",
+   "Self-paced; no fixed timeline (administered by SHRM)",
+   "18-24 months (administered by CFA Institute)"
+  ],
+  "answer": 1,
+  "answer_text": "9-15 months (administered by The Institutes)",
+  "type": "mc",
+  "source_term": "Associate In Management",
+  "source_term_id": "22524",
+  "q_idx": 0,
+  "explanation": "AIM is administered by The Institutes and typically takes between 9 and 15 months to complete."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "An Abandonment Clause is typically found in what specific insurance contract type?",
+  "choices": [
+   "Life insurance contract (policyholder abandons unpaid premiums)",
+   "Health insurance contract (insurer abandons coverage upon non-payment)",
+   "Property insurance contract (insured abandons damaged property for full settlement)",
+   "Auto insurance contract (insurer abandons vehicle to salvage company)"
+  ],
+  "answer": 2,
+  "answer_text": "Property insurance contract (insured abandons damaged property for full settlement)",
+  "type": "mc",
+  "source_term": "Abandonment Clause",
+  "source_term_id": "22753",
+  "q_idx": 0,
+  "explanation": "Abandonment clause = clause in a PROPERTY insurance contract permitting property owners to abandon lost/damaged property and still claim a full settlement."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "What is the typical cause of 'Consolidation' price action in technical analysis?",
+  "choices": [
+   "Regulator-imposed daily price limits",
+   "Coordinated short-seller activity",
+   "High institutional buying activity",
+   "Trader indecisiveness"
+  ],
+  "answer": 3,
+  "answer_text": "Trader indecisiveness",
+  "type": "mc",
+  "source_term": "Consolidation",
+  "source_term_id": "766",
+  "q_idx": 0,
+  "explanation": "Consolidation is generally caused by TRADER INDECISIVENESS (price moves within support/resistance range)."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "A 'Repricing Opportunity' is triggered by what specific event?",
+  "choices": [
+   "Issuer's contractual right to reset coupon",
+   "SEC-mandated executive option reset window",
+   "Change in the market environment",
+   "Daily mark-to-market reset on derivatives"
+  ],
+  "answer": 2,
+  "answer_text": "Change in the market environment",
+  "type": "mc",
+  "source_term": "Repricing Opportunity",
+  "source_term_id": "18075",
+  "q_idx": 0,
+  "explanation": "Repricing opportunity = a CHANGE IN THE MARKET ENVIRONMENT that allows for a reassessment of the value of an investment."
+ },
+ {
+  "subject": "financial_terminology",
+  "question": "In industry lifecycle theory, when does the 'Consolidation Phase' occur?",
+  "choices": [
+   "Mid-cycle phase (organic growth dominates)",
+   "Periodic recurrence every 5-7 years",
+   "Late part of the industry lifecycle (M&A intensifies)",
+   "Early part of the industry lifecycle (rapid entry)"
+  ],
+  "answer": 2,
+  "answer_text": "Late part of the industry lifecycle (M&A intensifies)",
+  "type": "mc",
+  "source_term": "Consolidation Phase",
+  "source_term_id": "14445",
+  "q_idx": 0,
+  "explanation": "Consolidation phase = a LATER part of the industry lifecycle when companies begin to acquire and merge with one another."
+ }
+]

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: If you use these artifacts, please cite the paper.
+title: "Definition-Only RAG for Financial QA: Average Gains and a Diagnostic Boundary"
+authors:
+  - family-names: Ouyang
+    given-names: Leyi
+  - family-names: Marrese-Taylor
+    given-names: Edison
+  - family-names: Matsuo
+    given-names: Yutaka
+preferred-citation:
+  type: conference-paper
+  title: "Definition-Only RAG for Financial QA: Average Gains and a Diagnostic Boundary"
+  authors:
+    - family-names: Ouyang
+      given-names: Leyi
+    - family-names: Marrese-Taylor
+      given-names: Edison
+    - family-names: Matsuo
+      given-names: Yutaka
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  year: 2026
